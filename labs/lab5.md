@@ -54,7 +54,7 @@ Paste the code you used to do each step between the \'\'\' below:
 
 
 ```
-Replace this with code used
+rm -Rf backup
 
 ```
 
@@ -76,8 +76,8 @@ talk more about this later).
 Change the permissions on all of your backup files to be write-protected.
 
 ```
-Replace this with code
 
+chmod ug+rwx SRR097977.fastq
 ```
 
 How do you know they are write protected?
@@ -102,3 +102,5 @@ Replace this with code
 - Explain what a conda environment is, and how to activate and deactivate it
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+unzip
