@@ -1,0 +1,2000 @@
+   23  conda activate base
+   24  screen
+   25  conda activate base
+   26  conda activate qiime2-amplicon-2024.5
+   27  R
+   28  conda activate base
+   29  conda activate qiime2-amplicon-2024.5
+   30  R
+   31  git add README.md 
+   32  git commit -m 'render titan'
+   33  git push
+   34  git add plots/*
+   35  git commit -m 'plots'
+   36  git push
+   37  git add README.md 
+   38  git commit -m 'plots'
+   39  git push
+   40  conda activate qiime2-amplicon-2024.5 && R
+   41  conda activate qiime2-amplicon-2024.5 && R
+   42  ls -ltrh 
+   43  ls -ltrh nerrs/
+   44  library(gmmDenoise)
+   45  conda activate qiime2-amplicon-2024.5
+   46  R
+   47  conda activate base
+   48  vim metadata/sample-times.csv
+   49  ls metadata
+   50  ls metadata/NERRs_18s_Sample_metadata.tsv
+   51  cp ../../old-home/watts/data/NERR/18s/metadata/NERRs_18s_Sample_metadata.tsv metadata/
+   52  cp ../old-home/watts/data/NERR/18s/metadata/NERRs_18s_Sample_metadata.tsv metadata/
+   53  R
+   54  conda activate qiime2-amplicon-2024.5
+   55  R
+   56  ls
+   57  ls -ltrh results/
+   58  ls -ltrh results/*rooted-tree.qza
+   59  ls -ltrh results/*table.qza
+   60  ls 
+   61  ls -ltrh code/
+   62  ls results/NERRS_18s_euks_hum_samples-table.qza
+   63  ls metadata/phyloseq-metadata.tsv
+   64  ls results/NERRS_18s_vsearch_taxonomy_10accepts_90perc-silva.qza
+   65  ls results/NERRS_18s_euks_hum_samples-table.qza
+   66  ls results/NERRS_18s_9_12_24_rooted-tree.qza
+   67  ls ../old-home/watts/data/NERR/18s/metadata/797370.csv
+   68  ls -ltrh ../old-home/watts/data/NERR/18s/metadata/797370.csv
+   69  cp ../old-home/watts/data/NERR/18s/metadata/797370.csv metadata/
+   70  cp ../old-home/watts/data/NERR/18s/metadata/500389.csv metadata/
+   71  vim metadata/phyloseq-metadata.tsv
+   72  head metadata/phyloseq-metadata.tsv
+   73  ls results/NERRS_18s_vsearch_taxonomy_10accepts_90perc-silva.qza
+   74  ls results/NERRS_18s_euks_hum_samples-table.qza
+   75  ls results/NERRS_18s_9_12_24_rooted-tree.qza
+   76  ls -ltrh results/
+   77  ls 
+   78  git pull
+   79  git add results/*
+   80  git commit -m 'results'
+   81  git push
+   82  git pull
+   83  it config pull.ff only
+   84  git config pull.ff only
+   85  git pull
+   86  git merge --no-ff
+   87  git add metadata/*
+   88  git commit -m 'meta'
+   89  git pull
+   90  git merge --no-ff
+   91  git add code/*
+   92  git commit -m 'sdf'
+   93  git merge --no-ff
+   94  cd metadata/
+   95  ld
+   96  ls -ltrh
+   97  sftp jtm1171@premise.sr.unh.edu
+   98  ls -ltrh metadata/
+   99  ls
+  100  ls -ltrh
+  101  realpath 797370.csv 
+  102  realpath 500389.csv
+  103  vim /home/users/jtm1171/NERRs-18s-metabarcoding/metadata/sample-time.csv
+  104  conda activate qiime2-amplicon-2024.5
+  105  conda activate base
+  106  conda activate base
+  107  ls
+  108  ls git
+  109  git clone https://github.com/jthmiller/gen711-811_lessons.git
+  110  ls
+  111  conda deactivate
+  112  cd ../
+  113  git
+  114  git clone
+  115  ls
+  116  cd $HOME
+  117  pwd
+  118  ls
+  119  cd gen711-811
+  120  git pull
+  121  ls
+  122  cd gen711-811_lessons/
+  123  ls
+  124  git pull
+  125  git config pull.rebase false
+  126  git pull
+  127  git clone https://github.com/jthmiller/gen711-811.git
+  128  ls
+  129  cd gen711-811
+  130  ls
+  131  ssh -T git@github.com
+  132  ls
+  133  ssh -T git@github.com
+  134  clear
+  135  ssh-keygen -t ed25519 -C "your_email@example.com"
+  136  cat ~/.ssh/id_ed25519.pub
+  137  cd ../
+  138  ls
+  139  cd gen711-811
+  140  cd ~/gen711-811
+  141  ls
+  142  git remote -v
+  143  git remote set-url origin git@github.com:jthmiller/gen711-811.git
+  144  ssh -T git@github.com
+  145  ls
+  146  cd ../
+  147   wget -r -np -R "index.html*" --http-user=user --http-password=UgRxlwUYgm https://cobb-data.sr.unh.edu/projects/251222_A01346_0199_AHGFKJDRX7_AMP-12225-AM-Wolfeboro-Lakes-Cyanobacteria/reads
+  148  screen
+  149  conda activate qiime2-amplicon-2024.5
+  150  ls -lrtha
+  151  ls -lrtha ../
+  152  ls -lrtha ../.ssh
+  153  cat ~/.ssh/id_ed25519.pub 
+  154  ssh-keygen -t ed25519 -C "jeffrey.miller@unh.edu"
+  155  cat ~/.ssh/id_ed25519.pub
+  156  git remote -v
+  157  git remote set-url origin git@github.com:jthmiller/gen711-811.git
+  158  ssh -T git@github.com
+  159  cd ../
+  160  ls
+  161  cd NERRs-18s-metabarcoding/
+  162  ls
+  163  ssh -T git@github.com
+  164  git remote -v
+  165  ls 
+  166  ls
+  167  cd ../gen711-811
+  168  ls
+  169  ls ../gen711-811
+  170  ls /bin 
+  171  ls /Applications
+  172  git config pull.rebase false
+  173  git pull
+  174  ls
+  175  git add * 
+  176  git commit -m 'sdf'
+  177  git push
+  178  ls -ltrh
+  179  mv gen711-811_lessons gen711-811_lessonsa
+  180  git clone gen711-811_lessons
+  181  git clone https://github.com/jthmiller/gen711-811_lessons.git
+  182  cd gen711-811_lessons
+  183  pwd
+  184  ls
+  185  clear
+  186  ls '
+  187  fdghdf
+  188  rth
+  189  '
+  190  ls 'ddf
+  191  cd shell_data/
+  192  ls
+  193  ls -F
+  194  man ls
+  195  ls -lrth 
+  196  clear
+  197  cd untrimmed_fastq/
+  198  ls
+  199  cd $HOME
+  200  cd gen711-811
+  201  ls
+  202  cd shell_data/
+  203  ls
+  204  cd untrimmed_fastq/
+  205  head SRR097977.fastq 
+  206  clear
+  207  cat SRR097977.fastq 
+  208  clear
+  209  ls
+  210  cd ../
+  211  ls
+  212  conda deactivate base
+  213  conda deactive
+  214  conda deactivate
+  215  ls
+  216  clear 
+  217  pwd
+  218  cd ../
+  219  ls
+  220  cd ../
+  221  ls
+  222  clear
+  223  ls *l*
+  224  ls ../*l*
+  225  ls | grep 'l'
+  226  clear
+  227  cd ~
+  228  pwd
+  229  ls
+  230  cd gen711-811
+  231  ls
+  232  clear
+  233  pwd
+  234  cd /home/users/jtm1171/gen711-811/shell_data/
+  235  cd  /home/users/jtm1171/gen711-811/shell_data/
+  236  clear
+  237  cd untrimmed_fastq/
+  238  ls
+  239  cd $HOME
+  240  pwd
+  241  echo $HOME
+  242  cd gen711-811/shell_data/untrimmed_fastq/
+  243  cd ../../../
+  244  pwd
+  245  cd gen711-811/shell_data/untrimmed_fastq/
+  246  pwd
+  247  cd /home/users/jtm1171/gen711-811
+  248  pwd
+  249  cd /home/users/jtm1171
+  250  history
+  251  cd gen711-811/shell_data/untrimmed_fastq/
+  252  clear
+  253  ls
+  254  ghead SRR097977.fastq 
+  255  head SRR097977.fastq 
+  256  clear
+  257  grep '@' SRR097977.fastq 
+  258  clear
+  259  grep '^@' SRR097977.fastq 
+  260  grep '@SRR097977' SRR097977.fastq 
+  261  clear
+  262  grep '@SRR097977' SRR097977.fastq 
+  263  clear
+  264  grep '@SRR097977' SRR097977.fastq 
+  265  clear
+  266  grep '@SRR097977' SRR097977.fastq > headerlines.txt
+  267  ls
+  268  head headerlines.txt 
+  269  clear
+  270  ls
+  271  ls *fastq
+  272  ls SRR09*fastq
+  273  ls *txt
+  274  ls /bin
+  275  ls
+  276  cd /bin
+  277  ls
+  278  cd $HOME
+  279  ls /bin
+  280  clear
+  281  ls /bin
+  282  clear
+  283  cd /bin
+  284  ls
+  285  ls /bin
+  286  cd ~
+  287  ls /bin 
+  288  ls /bin/c* 
+  289  ls -r /bin/c* 
+  290  clear
+  291  ls /bin/c* | wc -l 
+  292  ls /bin/c* | wc 
+  293  ls /bin/
+  294  clear
+  295  ls /bin/ | grep '^c' 
+  296  ls /bin/ | grep '^c' | wc -l
+  297  ls /bin/ | grep '^c' > file-c-prog
+  298  head file-c-prog 
+  299  less file-c-prog 
+  300  ls /home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq/*fastq
+  301  history
+  302  history | grep '/home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq/*fastq'
+  303  history | grep '/home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq'
+  304  ls files/results/nerrs/core-metrics-results/
+  305  mkdir files/results/nerrs/core-metrics-results/swmp-data
+  306  cp ../NERRs-18s-metabarcoding/results/core-metrics-results/update-swmp/*qzv files/results/nerrs/core-metrics-results/swmp-data/
+  307  git add files/results/nerrs/core-metrics-results/swmp-data/*
+  308  git commit -m 'newplots'
+  309  git push
+  310  git pull
+  311  git stash
+  312  git pull
+  313  ls files/results/nerrs/core-metrics-results
+  314  ls files/results/nerrs/core-metrics-results/swmp-data/
+  315  ls -ltrh files/results/nerrs/core-metrics-results/swmp-data/
+  316  ls files/results/nerrs/core-metrics-results
+  317  ls -ltrh files/results/nerrs/core-metrics-results
+  318  ruby
+  319  cd results/
+  320  ls
+  321  ls -ltrh
+  322  cd core-metrics-results/
+  323  ls
+  324  ls -ltrh
+  325  ls -ltrh phylogenetic/
+  326  conda activate base
+  327  cd ../CYANO/
+  328  ls
+  329  cd 16s/
+  330  ls
+  331  mkdir plots
+  332  pwd
+  333  realpath plots/*
+  334  ls
+  335  cd results/
+  336  ls
+  337  ls -ltrh
+  338  screen -dr
+  339  conda activate base
+  340  conda activate qiime2-amplicon-2024.5 & R
+  341  conda activate qiime2-amplicon-2024.5
+  342  R
+  343  vim metadata/sample-times-formatted.csv
+  344  ls metadata
+  345  ls -ltrh metadata
+  346  vim tmp
+  347  mv tmp metadata/swmp-realtime-sample-metadata.tsv
+  348  vim metadata/swmp-realtime-sample-metadata.tsv
+  349  conda activate qiime2-amplicon-2024.5
+  350  qiime feature-table filter-features   --i-table results/NERRS_18s_euks_hum_samples-table.qza   --p-min-frequency 252   --o-filtered-table results/NERRS_18s_euks_hum_frequency-filtered-table.qza
+  351   qiime feature-table filter-samples    --i-table results/NERRS_18s_euks_hum_frequency-filtered-table.qza    --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv    --o-filtered-table results/NERRS_18s_euks_hum_swmp-sample-filtered-table.qza  
+  352  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  353  ls
+  354  head metadata/update-swmp-realtime-sample-metadata.tsv 
+  355  head metadata/update-swmp-realtime-sample-metadata.tsv | awk '{print NF}'
+  356  head metadata/update-swmp-realtime-sample-metadata.csv | awk '{print NF}'
+  357  head metadata/update-swmp-realtime-sample-metadata.tsv| awk '{print NF}'
+  358  head metadata/update-swmp-realtime-sample-metadata.csv
+  359  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  360  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv 
+  361  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  362  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | less -S
+  363  tabview metadata/update-swmp-realtime-sample-metadata.tsv
+  364  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  365  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  366  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  367  awk 'NF==85{print $0}' metadata/update-swmp-realtime-sample-metadata.tsv 
+  368  df[which(df$SampleID == 'JCLSw1106231'),]
+  369  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  370  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  371  awk 'NF==85{print $0}' metadata/update-swmp-realtime-sample-metadata.tsv 
+  372  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  373  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  374  awk 'NF==85{print $0}' metadata/update-swmp-realtime-sample-metadata.tsv 
+  375  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  376  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  377  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  378  wc -l metadata/update-swmp-realtime-sample-metadata.tsv 
+  379  wc -l metadata/update-swmp-realtime-sample-metadata.csv 
+  380  ls -ltrh metadata
+  381  rm metadata/update-swmp-realtime-sample-metadata*
+  382  ls -ltrh metadata
+  383  wc -l metadata/update-swmp-realtime-sample-metadata.csv 
+  384  tail metadata/update-swmp-realtime-sample-metadata.csv 
+  385  realpath metadata/update-swmp-realtime-sample-metadata.csv 
+  386  ls -ltrh metadata
+  387  realpath swmp-realtime-sample-metadata.tsv
+  388  realpath metadataswmp-realtime-sample-metadata.tsv
+  389  realpath metadata/swmp-realtime-sample-metadata.tsv
+  390  vim tmp
+  391  mv tmp metadata/swmp-realtime-sample-metadata.csv
+  392  tr ',' '\t' < metadata/swmp-realtime-sample-metadata.csv > metadata/swmp-realtime-sample-metadata.tsv
+  393   qiime feature-table filter-samples    --i-table results/NERRS_18s_euks_hum_frequency-filtered-table.qza    --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv    --o-filtered-table results/NERRS_18s_euks_hum_swmp-sample-filtered-table.qza  
+  394  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  395  ls -lrth results/
+  396  ls -lrth results/*tree*
+  397  ls -ltrh results/*rep-seqs*
+  398  ls
+  399  ls -ltrh
+  400  ls -ltrh results/
+  401  results/NERRS_18s_euks_hum_samples-table.qza
+  402  results/NERRS_18s_euks_hum_samples-table.qzals results/NERRS_18s_euks_hum_samples-table.qza
+  403  ls results/NERRS_18s_euks_hum_samples-table.qza
+  404  ls results/core-metrics-results
+  405  ls -ltrh results/core-metrics-results
+  406  qiime diversity core-metrics-phylogenetic     --i-phylogeny results/core-metrics-results/NERRS_18s_rooted-tree.qza     --i-table results/NERRS_18s_euks_hum_samples-table.qza     --p-with-replacement     --p-sampling-depth 1000     --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv     --output-dir results/core-metrics-results/update-swmp
+  407  qiime diversity core-metrics-phylogenetic
+  408  qiime diversity core-metrics-phylogenetic     --i-phylogeny results/core-metrics-results/NERRS_18s_rooted-tree.qza     --i-table results/NERRS_18s_euks_hum_samples-table.qza     --p-with-replacement     --p-sampling-depth 1000     --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv     --p-ignore-missing-samples     --output-dir results/core-metrics-results/update-swmp
+  409  qiime diversity core-metrics-phylogenetic     --i-phylogeny results/core-metrics-results/NERRS_18s_rooted-tree.qza     --i-table results/NERRS_18s_euks_hum_swmp-sample-filtered-table.qza     --p-with-replacement     --p-sampling-depth 1000     --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv     --p-ignore-missing-samples     --output-dir results/core-metrics-results/update-swmp
+  410  conda activate qiime2-amplicon-2024.5 && R
+  411  conda activate base
+  412  cd  /home/users/jtm1171/CYANO
+  413  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  414  R
+  415  conda activte qiime2-amplicon-2024.5
+  416  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  417  R
+  418  conda activate qiime2-amplicon-2024.5
+  419  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  420  R
+  421  conda activate base
+  422  conda activate qiime2-amplicon-2024.5
+  423  qiime taxa barplot
+  424  cd ../CYANO/
+  425  ls
+  426  export locus='16s'
+  427  export primer="16s_V4-V5"
+  428  export run='Wolfeboro-Lakes-Cyanobacteria'
+  429  source /home/users/jtm1171/code/qiime2_parameters.sh
+  430   qiime taxa collapse 	--i-table ${locus}/runs/${run}_table.qza 	--i-taxonomy ${locus}/runs/${run}_hybrid_taxonomy.qza 	--p-level 1 	--o-collapsed-table ${locus}/runs/${run}_collapse_phylum
+  431  ls
+  432   qiime taxa collapse 	--i-table ${locus}/runs/qiime_out/${run}_table.qza 	--i-taxonomy ${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy.qza 	--p-level 1 	--o-collapsed-table ${locus}/runs/qiime_out/${run}_collapse_phylum
+  433   qiime taxa collapse 	--i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza 	--i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza 	--p-level 1 	--o-collapsed-table ${locus}/runs/${run}/qiime_out/${run}_collapse_phylum
+  434  ls ${locus}/run/qiime_out/${run}_table.qza
+  435  ls ${locus}/runs/${run}/qiime_out/${run}_table.qza
+  436   qiime taxa collapse 	--i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza 	--i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza 	--p-level 5 	--o-collapsed-table ${locus}/runs/${run}/qiime_out/${run}_collapse_family \
+  437  qiime taxa filter-table     --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_table-filt.qza
+  438  qiime taxa filter-table
+  439  cd ${locus}/runs/${run}/qiime_out
+  440  ls
+  441  ls -ltrh
+  442  ls Wolfeboro-Lakes-Cyanobacteria_dns_export
+  443  less Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv 
+  444  cut -f2 Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv 
+  445  cut -f2 Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv | sort | uniq -c
+  446  cut -f2 Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv | sort | uniq -c | sort -k1
+  447  cut -f2 Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv | sort | uniq -c | sort -k1 -h
+  448  ls -ltrh 
+  449  qiime tools export --input-path Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy.qza
+  450  qiime tools export --input-path Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy.qza --output-path Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy
+  451  less -S Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy/taxonomy.tsv 
+  452  cut -f2 Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy/taxonomy.tsv 
+  453  cut -f2 Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy/taxonomy.tsv | cut -f1 -d';'
+  454  cut -f2 Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy/taxonomy.tsv | cut -f1 -d';' | sort | uniq -c | sort -h -k1
+  455  qiime taxa filter-table
+  456  qiime taxa filter-table     --p-include Bacteria
+  457      --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_table-Bacteria.qza
+  458  qiime taxa filter-table     --p-include Bacteria     --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_table-Bacteria.qza
+  459  cd ../../
+  460  ## Filter by tax
+  461  qiime taxa filter-table     --p-include Bacteria     --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_table-Bacteria.qza
+  462  less -S /tmp/qiime2-q2cli-err-ej_1pvz3.log
+  463  qiime feature-table filter-features     --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --m-metadata-file ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_filtered-table.qza
+  464   qiime taxa collapse 	--i-table ${locus}/runs/${run}/qiime_out/${run}_filtered-table.qza 	--i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza 	--p-level 1 	--o-collapsed-table ${locus}/runs/${run}/qiime_out/${run}_collapse_phylum
+  465  ls -ltrh 16s/runs/Wolfeboro-Lakes-Cyanobacteria/
+  466  ls -ltrh 16s/runs/Wolfeboro-Lakes-Cyanobacteria/metadata/
+  467  ls -ltrh 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out/
+  468  qiime taxa barplot      --i-table  ${locus}/runs/${run}/qiime_out/${run}_collapse_phylum.qza      --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza      --o-visualization ${locus}/runs/${run}/qiime_out/${run}_phylun-taxa-barplot      --m-metadata-file ${locus}/runs/${run}/qiime_out/${run}_metadata.tsv
+  469   qiime taxa collapse
+  470  echo ${locus}/runs/$run/qiime_out/${run}
+  471  ls /usr/lib/jvm/jre/lib/server
+  472  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  473  R
+  474  conda activate base
+  475  screen -dr
+  476  cd ../CYANO/16s/runs
+  477  ls
+  478  ls -ltrh
+  479  cd Wolfeboro-Lakes-Cyanobacteria/
+  480  ls
+  481  cd qiime_out/
+  482  ls
+  483  less readcounts 
+  484  less -S 02022026_cutadapt.out
+  485  conda activate qiime2-amplicon-2024.5
+  486  conda activate base
+  487  run=Wolfeboro-Lakes-Cyanobacteria
+  488  qiime feature-table tabulate-seqs         --i-data qiime_out/${run}_single-rep-seqs.qza         --o-visualization qiime_out/${run}_single-rep-seqs
+  489  cd ../
+  490   qiime feature-table tabulate-seqs         --i-data qiime_out/${run}_single-rep-seqs.qza         --o-visualization qiime_out/${run}_single-rep-seqs
+  491  qiime metadata tabulate         --m-input-file qiime_out/${run}_dns.qza         --o-visualization qiime_out/${run}_dns     && qiime tools export         --input-path qiime_out/${run}_dns.qzv         --output-path qiime_out/${run}_dns_export     && cp         qiime_out/${run}_dns_export/metadata.tsv         qiime_out/${run}_metadata.tsv     && echo -e "file\tprePolyG_filter\tpostPolyG_filter\t$(head -n1 qiime_out/${run}_metadata.tsv | sed 's/ /_/g' )" > qiime_out/${run}_read_report.txt     && while read line ; do          samp=$( echo $line | awk '{print $1}' );         lintab=$(echo $line | awk -v OFS='\t' '{print $0}');         echo -e "$(grep $samp qiime_out/readcounts | head -n1)\t${line}"
+  492          done <<< "$( grep -v ^# qiime_out/${run}_metadata.tsv | grep -v '^sample-id')" | sort -h -k12 >> qiime_out/${run}_read_report.txt     && echo "done with paired end"
+  493  ls -ltrh
+  494  ls -ltrh qiime_out/
+  495  less -S qiime_out/Wolfeboro-Lakes-Cyanobacteria_read_report.txt
+  496  screen
+  497  ls -ltrh ../../results/
+  498  ls
+  499  cd qiime_out/
+  500  ls
+  501  ls -ltrh
+  502  ls
+  503  ls -ltrh
+  504  cd ../
+  505  ls
+  506  cd ../
+  507  ls
+  508  cd ../
+  509  ls
+  510  ls -ltrh results/ASVs_out
+  511  realpath results/*xlsx
+  512  pandoc
+  513  cd Lessons/
+  514  ls
+  515  pandoc Lab3.md -s -o lab3.pdf
+  516  export locus='16s'
+  517  export primer="16s_V4-V5"
+  518  export run='Wolfeboro-Lakes-Cyanobacteria'
+  519  source /home/users/jtm1171/code/qiime2_parameters.sh
+  520  cd ../
+  521  ls
+  522  cd ../
+  523  ls
+  524  qiime feature-classifier classify-hybrid-vsearch-sklearn   --i-query ${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza   --i-classifier ${sklearn}   --i-reference-reads ${refreads}   --i-reference-taxonomy  ${reftax}   --p-threads 32   --p-perc-identity ${perc_identity}   --p-query-cov ${query_cov}   --p-maxhits all   --p-maxrejects all   --p-maxaccepts ${maxaccepts}   --p-min-consensus 0.51   --p-confidence 0   --o-classification ${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy
+  525  echo $sklearn
+  526  qiime feature-classifier classify-hybrid-vsearch-sklearn   --i-query ${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza   --i-classifier ${sklearn}   --i-reference-reads ${refreads}   --i-reference-taxonomy  ${reftax}   --p-threads 32   --p-perc-identity ${perc_identity}   --p-query-cov ${query_cov}   --p-maxhits all   --p-maxrejects all   --p-maxaccepts ${maxaccepts}   --p-min-consensus 0.51   --p-confidence 0   --o-classification ${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy
+  527  qiime feature-classifier classify-consensus-vsearch   --i-query ${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza     --i-reference-reads ${refreads}     --i-reference-taxonomy  ${reftax}     --p-threads 41     --p-perc-identity ${perc_identity}     --p-query-cov ${query_cov}     --p-maxhits all     --p-maxrejects all     --p-weak-id ${weak_id}     --p-maxaccepts ${maxaccepts}     --p-min-consensus 0.51     --o-classification ${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy     --o-search-results ${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy-tophits
+  528  qiime tools export   --input-path ${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy-tophits.qza   --output-path ${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy-tophits
+  529    qiime metadata tabulate         --m-input-file ${locus}/runs/${run}/qiime_out/${run}_dns.qza         --o-visualization ${locus}/runs/${run}/qiime_out/${run}_dns 
+  530    qiime tools export         --input-path ${locus}/runs/${run}/qiime_out/${run}_dns.qzv         --output-path ${locus}/runs/${run}/qiime_out/${run}_dns_export 
+  531    cp     ${locus}/runs/${run}/qiime_out/${run}_dns_export/metadata.tsv     ${locus}/runs/${run}/qiime_out/${run}_metadata.tsv 
+  532  ## Metadata 
+  533  ## find "${locus}/runs" -name metadata.tsv -exec head -n1 {} \; | head -n1 > ${locus}/metadata/HD24_${locus}_metadata.tsv
+  534  ## find "${locus}/runs" -name metadata.tsv -exec cat {} \; | grep -v 'sample-id' | grep -v '^#q2:types' >> ${locus}/metadata/HD24_${locus}_metadata.tsv
+  535  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH' && /home/users/jtm1171/code/qiime2_generate_simple_output_tables.r   "${locus}/runs/$run/qiime_out/${run}_table.qza"   "${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza"   "${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy.qza"   "${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy.qza"   "${locus}/runs/${run}/qiime_out/${run}_metadata.tsv"   ${min}   ${max}   48   "${locus}/results/${run}_${locus}"
+  536  qiime feature-table filter-features     --i-table runs/${run}/qiime_out/${run}_table.qza     --m-metadata-file runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table results/${run}_filtered-table.qza
+  537  ls /usr/lib/jvm/jre/lib/server
+  538  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH' && /home/users/jtm1171/code/qiime2_generate_simple_output_tables.r   "${locus}/runs/$run/qiime_out/${run}_table.qza"   "${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza"   "${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy.qza"   "${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy.qza"   "${locus}/runs/${run}/qiime_out/${run}_metadata.tsv"   ${min}   ${max}   48   "${locus}/results/${run}_${locus}"
+  539  ls "${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qzaA"
+  540  ls ${locus}/runs/${run}/qiime_out/${run}_table.qza
+  541  ls ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza
+  542  ls ${locus}/runs/${run}/qiime_out/${run}_vsearch_taxonomy.qza
+  543  ls ${locus}/runs/${run}/qiime_out/${run}_metadata.tsv
+  544  /home/users/jtm1171/code/qiime2_generate_simple_output_tables.r   "${locus}/runs/${run}/qiime_out/${run}_table.qza"   "${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza"   "${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza"   "${locus}/runs/${run}/qiime_out/${run}_vsearch_taxonomy.qza"   "${locus}/runs/${run}/qiime_out/${run}_metadata.tsv"   ${min}   ${max}   48   "${locus}/results/${run}_${locus}"
+  545  ls 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out
+  546  ls 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out/Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy.qza
+  547  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  548  pwd
+  549  ls -ltrh 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out
+  550  qiime phylogeny align-to-tree-mafft-fasttree    --i-sequences ${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza    --o-alignment ${locus}/runs/${run}/qiime_out/${run}_aligned-rep-seqs    --o-masked-alignment ${locus}/runs/${run}/qiime_out/${run}_masked-aligned-rep-seqs.qza    --o-tree ${locus}/runs/${run}/qiime_out/${run}_unrooted-tree.qza    --o-rooted-tree ${locus}/runs/${run}/qiime_out/${run}_rooted-tree.qza    --p-n-threads 24
+  551  ls 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out
+  552  less 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out/Wolfeboro-Lakes-Cyanobacteria_read_report.txt
+  553  less 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out/readcounts 
+  554  ls
+  555  R
+  556  conda activate qiime2-amplicon-2024.5
+  557  conda activate base
+  558  conda activate qiime2-amplicon-2024.5
+  559  R
+  560  conda activate base
+  561  ls -ltrh 
+  562  conda activate qiime2-amplicon-2024.5 & R
+  563  conda activate qiime2-amplicon-2024.5
+  564  R
+  565  find images/ -name filtered*
+  566  find images/ -name filtered* -exec cp {} ../jthmiller.github.io/files/results/nerrs/core-metrics-results/ \;
+  567  ls -ltrh code/
+  568  ls -ltrh results/*tree*
+  569  ls -ltrh metadata
+  570  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  571  cp metadata/update-swmp-realtime-sample-metadata.tsv metadata/phylo_update-swmp-realtime-sample-metadata.tsv
+  572  ls -ltrh results/
+  573  ls -ltrh results/*taxonomy*
+  574  ls -ltrh metadata
+  575  conda activate qiime2-amplicon-2024.5
+  576  R
+  577  ls
+  578  ls -ltrh
+  579  ls -ltrh code/
+  580  ls
+  581  ls -ltrh code/
+  582  ls
+  583  ls -ltrh
+  584  rm 'cales = "free", independent = "y") ' 
+  585  ls -ltrh
+  586  rm '(x
+  587  rm '(x = Parameter, y = Value,colour = factor(NERR), fill = factor(NERR))) +' 
+  588  ls -ltrh code/
+  589  ls -ltrh code/18s*
+  590  ls -ltrh metadata
+  591  less -S metadata/update-swmp-realtime-sample-metadata.csv
+  592  grep 'GTMFM' metadata/update-swmp-realtime-sample-metadata.csv 
+  593  grep 'GTMFM' metadata/update-swmp-realtime-sample-metadata.csv | less -S
+  594  vim tmp
+  595  mv tmp metadata/swmp-realtime-sample-metadata.csv 
+  596  tr ',' '\t' < metadata/swmp-realtime-sample-metadata.csv metadata/swmp-realtime-sample-metadata.tsv 
+  597  tr ',' '\t' < metadata/swmp-realtime-sample-metadata.csv > metadata/swmp-realtime-sample-metadata.tsv 
+  598  less -S metadata/swmp-realtime-sample-metadata.tsv
+  599  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  600  grep 'GTMPI'  metadata/update-swmp-realtime-sample-metadata.tsv | less -S
+  601  grep 'GTMPI'  metadata/update-swmp-realtime-sample-metadata.csv | less -S
+  602  ls -ltrh
+  603  ls -ltrh metadata
+  604  ls -ltrh metadata/swmp-realtime-sample-metadata.tsv 
+  605  less -S  metadata/swmp-realtime-sample-metadata.tsv 
+  606  grep 'GBLR'  metadata/swmp-realtime-sample-metadata.tsv | less -S 
+  607  grep 'GTMFM'  metadata/swmp-realtime-sample-metadata.tsv | less -S 
+  608  ls -ltrh metadata
+  609  ls -ltrh metadata/update-swmp-realtime-sample-metadata.tsv
+  610  grep 'GTMFM'  metadata/swmp-realtime-sample-metadata.tsv | less -S 
+  611  sample_data(ps)
+  612  ls -ltrh
+  613  ls -ltrh metadata
+  614  grep 'GTMFM'  metadata/update-swmp-realtime-sample-metadata.tsv | less -S 
+  615  grep 'GTMFM'  metadata/swmp-realtime-sample-metadata.tsv | less -S 
+  616  less -S metadata/swmp-realtime-sample-metadata.csv
+  617  head -n1 metadata/swmp-realtime-sample-metadata.csv
+  618  head -n1 metadata/swmp-realtime-sample-metadata.csv | tr ',' '\n'
+  619  head -n1 metadata/swmp-realtime-sample-metadata.csv | tr ',' '\n' | sort | uniq -c
+  620  ls
+  621  cd metadata/
+  622  ls
+  623  ls -ltrh
+  624  rm swmp-realtime-sample-metadata.*
+  625  vim tmp
+  626  mv tmp swmp-realtime-sample-metadata.csv
+  627  ls -ltrh
+  628  ls
+  629  ls -ltrh
+  630  vim tmp
+  631  mv tmp swmp-realtime-sample-metadata.csv 
+  632  ls -ltrh
+  633  less -S update-swmp-realtime-sample-metadata.tsv
+  634  ls -ltrh
+  635  vim tmp
+  636  less -S swmp-realtime-sample-metadata.csv
+  637  mv tmp swmp-realtime-sample-metadata.csv 
+  638  ls -ltrh 
+  639  less -S swmp-realtime-sample-metadata.csv
+  640  less -S update-swmp-realtime-sample-metadata.tsv
+  641  less -S swmp-realtime-sample-metadata.csv
+  642  grep 'Kaho' swmp-realtime-sample-metadata.csv 
+  643  grep 'Kaho ªokele' swmp-realtime-sample-metadata.csv 
+  644  grep 'Kaho*okele' swmp-realtime-sample-metadata.csv 
+  645  vim tmp
+  646  mv tmp swmp-realtime-sample-metadata.csv 
+  647  grep 'Kaho' swmp-realtime-sample-metadata.csv 
+  648  params_df <- data.frame(sample_data(ps)[,params])
+  649  conda activate qiime2-amplicon-2024.5
+  650  R
+  651  git stash
+  652  git pull
+  653  pwd
+  654  cd 
+  655  pwd
+  656  cd gen711-811
+  657  cd 
+  658  pwd
+  659  cd $HOME
+  660  cd ~/gen711-811
+  661  clear
+  662  cd shell_data/
+  663  cd untrimmed_fastq/
+  664  cd 
+  665  clear
+  666  cd notadir
+  667  cd gen711-811/shell_data/
+  668  ls
+  669  ls ../../
+  670  ls --all
+  671  ls
+  672  ls --all
+  673  ls --all .hidden/
+  674  ls -a
+  675  ls .*
+  676  ls -Fa
+  677  ls -laF
+  678  clear
+  679  ls *fq
+  680  cd 
+  681  cd gen711-811/shell_data/untrimmed_fastq/
+  682  ls *.fastq
+  683  ls *977.fastq
+  684  ls /usr/bin/
+  685  ls /usr/bin/*sh
+  686  ls /usr/bin/*.sh
+  687  ls /usr/bin/c*
+  688  ls /usr/bin/c* | wc -l
+  689  clear
+  690  echo *fastq
+  691  echo everything
+  692  clear 
+  693  history
+  694  ls /usr/bin/c* | wc -l
+  695  ls /usr/bin/*.sh
+  696  history | grep 'grep'
+  697  clear
+  698  cat SRR097977.fastq 
+  699  clear
+  700  less SRR097977.fastq 
+  701  less -S SRR097977.fastq 
+  702  less -S SRR098026.fastq 
+  703  grep 'TTTTT' *fastq
+  704  less -S SRR098026.fastq 
+  705  less -S SRR097977.fastq 
+  706  grep TTTTT SRR097977.fastq 
+  707  grep TTTTT SRR097977.fastq | wc -l
+  708  less -S SRR097977.fastq 
+  709  head SRR097977.fastq 
+  710  tail SRR097977.fastq 
+  711  cvlear
+  712  clear
+  713  tail SRR097977.fastq 
+  714  tail -n3 SRR097977.fastq 
+  715  clear
+  716  tail -n3 SRR097977.fastq 
+  717  mkdir backup
+  718  ls
+  719  cp SRR098026.fastq SRR098026-backup.fastq 
+  720  clear
+  721  pwd
+  722  clear
+  723  ls
+  724  mv *backup.fastq backup/
+  725  clear
+  726  ls
+  727  fastqc
+  728  ls
+  729  cd ../
+  730  ls
+  731  git clone https://github.com/jthmiller/shell-genomics.git
+  732  cp shell-genomics/episodes/fig/* gen711-811_lessons/Lessons/fig/
+  733  ls -ltrh gen711-811
+  734  ls -ltrh gen711-811/labs/
+  735  mkdir gen711-811/labs/fig
+  736  cp shell-genomics/episodes/fig/* gen711-811/labs/fig/
+  737  ls /usr/bin/*.sh
+  738  conda deactivate
+  739  fastqc
+  740  conda env list
+  741  ls
+  742  cd gen711-811
+  743  cd
+  744  cd gen711-811/shell_data/
+  745  ld
+  746  ls
+  747  cd 
+  748  cd gen711-811
+  749  cd ..
+  750  ls -a gen711-811/shell_data/
+  751  conda env list
+  752  ls /
+  753  ls /bin/
+  754  which conda
+  755  fastqc
+  756  conda activate qiime2-amplicon-2024.5
+  757  conda activate base
+  758  conda activate qiime2-amplicon-2024.5
+  759  R
+  760  conda activate base
+  761  conda activate qiime2-amplicon-2024.5 && export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH' && R
+  762  conda activate base
+  763  conda activate base
+  764  cd 
+  765  cd CYANO/
+  766  ls
+  767  cd 16s/
+  768  ls
+  769  ls results/
+  770  ls -ltrh results/
+  771  realpath results/Wolfeboro-Lakes-Cyanobacteria_16s.xlsx
+  772  conda activate base
+  773  vim ../.bashrc 
+  774  vim ../.condarc
+  775  grep ../\.*
+  776  grep 'base' ../\.*
+  777  ls
+  778  ls -ltrh
+  779  ls -a
+  780  ls -ltrh 
+  781  ls /usr/lib/jvm/jre/lib/server
+  782  conda activate qiime2-amplicon-2024.5 && R
+  783  conda activate qiime2-amplicon-2024.5 && export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH' && R
+  784  ls -ltrh metadata
+  785  realpath update-swmp-realtime-sample-metadata.csv
+  786  realpath metadata/update-swmp-realtime-sample-metadata.csv
+  787  conda activate qiime2-amplicon-2024.5
+  788  R
+  789  df <- read.table('metadata/swmp-realtime-sample-metadata.csv', header = T, sep = ',', stringsAsFactors = F)
+  790  ls -ltrh metadata
+  791  read.csv('metadata/update-swmp-realtime-sample-metadata.csv')
+  792  less -S update-swmp-realtime-sample-metadata.tsv
+  793  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  794  grep ',' metadata/update-swmp-realtime-sample-metadata.
+  795  grep ',' metadata/update-swmp-realtime-sample-metadata.tsv 
+  796  cd metadata/
+  797  ls
+  798  tr ',' '\t' < update-swmp-realtime-sample-metadata.csv
+  799  tr ',' '\t' < update-swmp-realtime-sample-metadata.csv | less -S
+  800  tr ',' '\t' < update-swmp-realtime-sample-metadata.csv | awk '{print NF}' | sort | uniq -c
+  801  tr ',' '\t' < update-swmp-realtime-sample-metadata.csv > update-swmp-realtime-sample-metadata.tsv 
+  802  ls -ltrh ../results/
+  803  ls -ltrh ../results/*tax*
+  804  ls ../results/NERRS_18s_hybrid_taxonomy_allaccepts_80perc-pr2.qza
+  805  top
+  806  conda activate qiime2-amplicon-2024.5
+  807  R
+  808  ssh jtm1171@premise.sr.unh.edu
+  809  ssh -v jtm1171@premise.sr.unh.edu
+  810  cd ../
+  811  ls
+  812  ls .ssh/
+  813  ls .ssh/id_ed25519.pub 
+  814  cat .ssh/id_ed25519.pub 
+  815  ls .ssh/
+  816  cat .ssh/known_hosts
+  817  cd .ssh
+  818  cat id_ed25519.pub 
+  819  ssh jtm1171@premise.sr.unh.edu
+  820  ls
+  821  less -S known_hosts
+  822  ssh -V jtm1171@premise.sr.unh.edu
+  823  ssh -v jtm1171@premise.sr.unh.edu
+  824  ls -ltrh
+  825  vim id_ed25519
+  826  less -S id_ed25519.pub
+  827  less -S authorized_keys 
+  828  ls
+  829  vim config
+  830  cat known_hosts
+  831  ls -ltrh
+  832  vim config 
+  833  screen -dr
+  834  screen -dr 1490087.pts-47.ron
+  835  top
+  836  ls -ltrh 
+  837  ls -ltrh code/
+  838  screen
+  839  screen -dr
+  840  screen -dr 1496519.pts-47.ron
+  841  conda activate genomics
+  842  conda info --envs
+  843  ls ~
+  844  find / -name envs
+  845  find / -name envs | grep -v 'denied'
+  846  find / -name envs | grep -V 'denied'
+  847  find / -name envs  2>/dev/null
+  848  ls /home/share/anaconda/envs
+  849  conda activate  /home/share/anaconda/envs/genomics
+  850  conda activate qiime2-amplicon-2024.5
+  851  R
+  852  screen
+  853  ls
+  854  cd shell_data/
+  855  ls
+  856  cd untrimmed_fastq/
+  857  ls
+  858  clear
+  859  cd ~
+  860  ls gen711-811/
+  861  ls
+  862  cd gen711-811/shell_data/untrimmed_fastq/
+  863  ls
+  864  ls -l
+  865  ls -l -h
+  866  ls /home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq/
+  867  ls -lh  /home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq/
+  868  ls
+  869  cd backup/
+  870  ls
+  871  cd ../
+  872  ls
+  873  cp SRR097977.fastq backup/SRR097977_backup.fastq 
+  874  echo 'notes' > tmp
+  875  ls
+  876  cat tmop
+  877  cat tmp
+  878  rm tmp 
+  879  cd backup/
+  880  clear
+  881  ls
+  882  ls -l
+  883  chmod -w SRR097977_backup.fastq 
+  884  ls -l
+  885  echo 'stuff' > SRR097977_backup.fastq
+  886  ls
+  887  cd ../
+  888  ls
+  889  rm -Rf backup/
+  890  ls
+  891  clear
+  892  conda activate genomics
+  893  conda activate /home/share/anaconda/envs/genomics
+  894  clear
+  895  conda deactivate
+  896  fastqc
+  897  conda activate /home/share/anaconda/envs/genomics
+  898  fastqc
+  899  fastqc -h
+  900  fastqc *.fastq*
+  901  ls 
+  902  which fastqc
+  903  which cp
+  904  mkdir fastqc_untrimmed_reads
+  905  ls
+  906  unzip *zip
+  907  ls
+  908  unzip *.zip
+  909  SRR097SRR097977_fastqc.zip
+  910  screen
+  911  cd shell_data/
+  912  ls
+  913  cd untrimmed_fastq/
+  914  ls
+  915  ls backup/
+  916  pwd
+  917  screen -dr
+  918  screen -dr 1490087.pts-47.ron
+  919  screen -dr 1496519.pts-47.ron
+  920  ls =ltrh
+  921  ls -ltrh
+  922  screen
+  923  top
+  924  conda activate qiime2-amplicon-2024.5
+  925  screen
+  926  conda activate qiime2-amplicon-2024.5
+  927  sample_data(ps)
+  928  conda activate qiime2-amplicon-2024.5
+  929  R
+  930  sreen
+  931  screen
+  932  screen -dr
+  933  screen -dr 2002736.pts-0.ron
+  934  screen -dr
+  935  screen -dr 1490087.pts-47.ron
+  936  screen -dr 2035671.pts-23.ron
+  937  conda activate qiime2-amplicon-2024.5
+  938  R
+  939  conda install r-torch
+  940  R
+  941  screen -dr
+  942  screen -dr 3220649.pts-27.ron
+  943  screen -dr 3148742.pts-18.ron
+  944  screen -dr 2035671.pts-23.ron
+  945  screen -dr
+  946  screen -dr 3220649.pts-27.ron 
+  947  screen -dr 3148742.pts-18.ron 
+  948  screen -dr 2035671.pts-23.ron
+  949  top
+  950  conda activate qiime2-amplicon-2024.5
+  951  R
+  952  ls
+  953  conda install pytorch
+  954  conda install r-reticulate
+  955  conda install torch
+  956  screen -dr
+  957  screen -dr 3148742.pts-18.ron
+  958  screen -dr 3220649.pts-27.ron
+  959  ls
+  960  mkdir transfer
+  961  cd transfer/
+  962  cd ../
+  963  cp 'results/NERRS_18s_euks_hum_swmp-sample-filtered-table.qza' transfer/
+  964  cp 'results/NERRS_18s_hybrid_taxonomy_allaccepts_80perc-pr2.qza' transfer/
+  965  cp 'results/NERRS_18s_vsearch_taxonomy_10accepts_90perc-silva.qza' transfer/
+  966  cp 'results/NERRS_18s_filtered_rep-seqs.qza' transfer/
+  967  cp 'results/Filtered_' transfer/
+  968  cp 'metadata/update-swmp-realtime-sample-metadata.tsv' transfer/
+  969  cp 'results/NERRS_18s_9_12_24_rooted-tree.qza' transfer/
+  970  cp 'refdbs/pr2_version_5.0.0_SSU_18S-V9_uniq_tax.qza' transfer/
+  971  cp 'results/NERRS_18s_vsearch_taxonomy_allaccepts_80perc-pr2.qza' transfer/
+  972  tar -zcvf 18sdata.tar.gz transfer
+  973  ls
+  974  ls -ltrh
+  975  realpath 18sdata.tar.gz 
+  976  top
+  977  screen -dr
+  978  screen -dr 3220649.pts-27.ron 
+  979  screen -dr 3148742.pts-18.ron
+  980  screen
+  981  ls
+  982  screen
+  983  screen -dr
+  984  screen -dr 3220649.pts-27.ron
+  985  screen -dr 3148742.pts-18.ron
+  986  top
+  987  screen -dr
+  988  screen -dr 3220649.pts-27.ron
+  989  screen -dr 3148742.pts-18.ron
+  990  screen -dr 2035671.pts-23.ron
+  991  conda activate qiime2-amplicon-2024.5
+  992  R
+  993  screen -dr
+  994  screen -dr 713435.pts-31.ron 
+  995  screen -dr 3220649.pts-27.ron
+  996  screen -dr 3148742.pts-18.ron
+  997  screen -dr
+  998  screen -dr 3220649.pts-27.ron
+  999  screen -dr 3148742.pts-18.ron
+ 1000  screen -dr 2035671.pts-23.ron
+ 1001  ls
+ 1002  cd shell_data/untrimmed_fastq/
+ 1003  ls
+ 1004  ls fastqc_untrimmed_reads/
+ 1005  clear
+ 1006  ls
+ 1007  unzip SRR098026_fastqc.zip 
+ 1008  ls -lrth
+ 1009  cd SRR098026_fastqc/
+ 1010  ls
+ 1011  less -S summary.txt 
+ 1012  which ls
+ 1013  whgich cp
+ 1014  which cp
+ 1015  conda activate /home/share/anaconda/envs/genomics
+ 1016  history
+ 1017  history | grep conda
+ 1018  history > myrecehist.txt
+ 1019  ls
+ 1020  rm myrecehist.txt 
+ 1021* history >> myrecehist.txt
+ 1022  history > myrecehist.txt
+   26  conda activate qiime2-amplicon-2024.5
+   27  R
+   28  conda activate base
+   29  conda activate qiime2-amplicon-2024.5
+   30  R
+   31  git add README.md 
+   32  git commit -m 'render titan'
+   33  git push
+   34  git add plots/*
+   35  git commit -m 'plots'
+   36  git push
+   37  git add README.md 
+   38  git commit -m 'plots'
+   39  git push
+   40  conda activate qiime2-amplicon-2024.5 && R
+   41  conda activate qiime2-amplicon-2024.5 && R
+   42  ls -ltrh 
+   43  ls -ltrh nerrs/
+   44  library(gmmDenoise)
+   45  conda activate qiime2-amplicon-2024.5
+   46  R
+   47  conda activate base
+   48  vim metadata/sample-times.csv
+   49  ls metadata
+   50  ls metadata/NERRs_18s_Sample_metadata.tsv
+   51  cp ../../old-home/watts/data/NERR/18s/metadata/NERRs_18s_Sample_metadata.tsv metadata/
+   52  cp ../old-home/watts/data/NERR/18s/metadata/NERRs_18s_Sample_metadata.tsv metadata/
+   53  R
+   54  conda activate qiime2-amplicon-2024.5
+   55  R
+   56  ls
+   57  ls -ltrh results/
+   58  ls -ltrh results/*rooted-tree.qza
+   59  ls -ltrh results/*table.qza
+   60  ls 
+   61  ls -ltrh code/
+   62  ls results/NERRS_18s_euks_hum_samples-table.qza
+   63  ls metadata/phyloseq-metadata.tsv
+   64  ls results/NERRS_18s_vsearch_taxonomy_10accepts_90perc-silva.qza
+   65  ls results/NERRS_18s_euks_hum_samples-table.qza
+   66  ls results/NERRS_18s_9_12_24_rooted-tree.qza
+   67  ls ../old-home/watts/data/NERR/18s/metadata/797370.csv
+   68  ls -ltrh ../old-home/watts/data/NERR/18s/metadata/797370.csv
+   69  cp ../old-home/watts/data/NERR/18s/metadata/797370.csv metadata/
+   70  cp ../old-home/watts/data/NERR/18s/metadata/500389.csv metadata/
+   71  vim metadata/phyloseq-metadata.tsv
+   72  head metadata/phyloseq-metadata.tsv
+   73  ls results/NERRS_18s_vsearch_taxonomy_10accepts_90perc-silva.qza
+   74  ls results/NERRS_18s_euks_hum_samples-table.qza
+   75  ls results/NERRS_18s_9_12_24_rooted-tree.qza
+   76  ls -ltrh results/
+   77  ls 
+   78  git pull
+   79  git add results/*
+   80  git commit -m 'results'
+   81  git push
+   82  git pull
+   83  it config pull.ff only
+   84  git config pull.ff only
+   85  git pull
+   86  git merge --no-ff
+   87  git add metadata/*
+   88  git commit -m 'meta'
+   89  git pull
+   90  git merge --no-ff
+   91  git add code/*
+   92  git commit -m 'sdf'
+   93  git merge --no-ff
+   94  cd metadata/
+   95  ld
+   96  ls -ltrh
+   97  sftp jtm1171@premise.sr.unh.edu
+   98  ls -ltrh metadata/
+   99  ls
+  100  ls -ltrh
+  101  realpath 797370.csv 
+  102  realpath 500389.csv
+  103  vim /home/users/jtm1171/NERRs-18s-metabarcoding/metadata/sample-time.csv
+  104  conda activate qiime2-amplicon-2024.5
+  105  conda activate base
+  106  conda activate base
+  107  ls
+  108  ls git
+  109  git clone https://github.com/jthmiller/gen711-811_lessons.git
+  110  ls
+  111  conda deactivate
+  112  cd ../
+  113  git
+  114  git clone
+  115  ls
+  116  cd $HOME
+  117  pwd
+  118  ls
+  119  cd gen711-811
+  120  git pull
+  121  ls
+  122  cd gen711-811_lessons/
+  123  ls
+  124  git pull
+  125  git config pull.rebase false
+  126  git pull
+  127  git clone https://github.com/jthmiller/gen711-811.git
+  128  ls
+  129  cd gen711-811
+  130  ls
+  131  ssh -T git@github.com
+  132  ls
+  133  ssh -T git@github.com
+  134  clear
+  135  ssh-keygen -t ed25519 -C "your_email@example.com"
+  136  cat ~/.ssh/id_ed25519.pub
+  137  cd ../
+  138  ls
+  139  cd gen711-811
+  140  cd ~/gen711-811
+  141  ls
+  142  git remote -v
+  143  git remote set-url origin git@github.com:jthmiller/gen711-811.git
+  144  ssh -T git@github.com
+  145  ls
+  146  cd ../
+  147   wget -r -np -R "index.html*" --http-user=user --http-password=UgRxlwUYgm https://cobb-data.sr.unh.edu/projects/251222_A01346_0199_AHGFKJDRX7_AMP-12225-AM-Wolfeboro-Lakes-Cyanobacteria/reads
+  148  screen
+  149  conda activate qiime2-amplicon-2024.5
+  150  ls -lrtha
+  151  ls -lrtha ../
+  152  ls -lrtha ../.ssh
+  153  cat ~/.ssh/id_ed25519.pub 
+  154  ssh-keygen -t ed25519 -C "jeffrey.miller@unh.edu"
+  155  cat ~/.ssh/id_ed25519.pub
+  156  git remote -v
+  157  git remote set-url origin git@github.com:jthmiller/gen711-811.git
+  158  ssh -T git@github.com
+  159  cd ../
+  160  ls
+  161  cd NERRs-18s-metabarcoding/
+  162  ls
+  163  ssh -T git@github.com
+  164  git remote -v
+  165  ls 
+  166  ls
+  167  cd ../gen711-811
+  168  ls
+  169  ls ../gen711-811
+  170  ls /bin 
+  171  ls /Applications
+  172  git config pull.rebase false
+  173  git pull
+  174  ls
+  175  git add * 
+  176  git commit -m 'sdf'
+  177  git push
+  178  ls -ltrh
+  179  mv gen711-811_lessons gen711-811_lessonsa
+  180  git clone gen711-811_lessons
+  181  git clone https://github.com/jthmiller/gen711-811_lessons.git
+  182  cd gen711-811_lessons
+  183  pwd
+  184  ls
+  185  clear
+  186  ls '
+  187  fdghdf
+  188  rth
+  189  '
+  190  ls 'ddf
+  191  cd shell_data/
+  192  ls
+  193  ls -F
+  194  man ls
+  195  ls -lrth 
+  196  clear
+  197  cd untrimmed_fastq/
+  198  ls
+  199  cd $HOME
+  200  cd gen711-811
+  201  ls
+  202  cd shell_data/
+  203  ls
+  204  cd untrimmed_fastq/
+  205  head SRR097977.fastq 
+  206  clear
+  207  cat SRR097977.fastq 
+  208  clear
+  209  ls
+  210  cd ../
+  211  ls
+  212  conda deactivate base
+  213  conda deactive
+  214  conda deactivate
+  215  ls
+  216  clear 
+  217  pwd
+  218  cd ../
+  219  ls
+  220  cd ../
+  221  ls
+  222  clear
+  223  ls *l*
+  224  ls ../*l*
+  225  ls | grep 'l'
+  226  clear
+  227  cd ~
+  228  pwd
+  229  ls
+  230  cd gen711-811
+  231  ls
+  232  clear
+  233  pwd
+  234  cd /home/users/jtm1171/gen711-811/shell_data/
+  235  cd  /home/users/jtm1171/gen711-811/shell_data/
+  236  clear
+  237  cd untrimmed_fastq/
+  238  ls
+  239  cd $HOME
+  240  pwd
+  241  echo $HOME
+  242  cd gen711-811/shell_data/untrimmed_fastq/
+  243  cd ../../../
+  244  pwd
+  245  cd gen711-811/shell_data/untrimmed_fastq/
+  246  pwd
+  247  cd /home/users/jtm1171/gen711-811
+  248  pwd
+  249  cd /home/users/jtm1171
+  250  history
+  251  cd gen711-811/shell_data/untrimmed_fastq/
+  252  clear
+  253  ls
+  254  ghead SRR097977.fastq 
+  255  head SRR097977.fastq 
+  256  clear
+  257  grep '@' SRR097977.fastq 
+  258  clear
+  259  grep '^@' SRR097977.fastq 
+  260  grep '@SRR097977' SRR097977.fastq 
+  261  clear
+  262  grep '@SRR097977' SRR097977.fastq 
+  263  clear
+  264  grep '@SRR097977' SRR097977.fastq 
+  265  clear
+  266  grep '@SRR097977' SRR097977.fastq > headerlines.txt
+  267  ls
+  268  head headerlines.txt 
+  269  clear
+  270  ls
+  271  ls *fastq
+  272  ls SRR09*fastq
+  273  ls *txt
+  274  ls /bin
+  275  ls
+  276  cd /bin
+  277  ls
+  278  cd $HOME
+  279  ls /bin
+  280  clear
+  281  ls /bin
+  282  clear
+  283  cd /bin
+  284  ls
+  285  ls /bin
+  286  cd ~
+  287  ls /bin 
+  288  ls /bin/c* 
+  289  ls -r /bin/c* 
+  290  clear
+  291  ls /bin/c* | wc -l 
+  292  ls /bin/c* | wc 
+  293  ls /bin/
+  294  clear
+  295  ls /bin/ | grep '^c' 
+  296  ls /bin/ | grep '^c' | wc -l
+  297  ls /bin/ | grep '^c' > file-c-prog
+  298  head file-c-prog 
+  299  less file-c-prog 
+  300  ls /home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq/*fastq
+  301  history
+  302  history | grep '/home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq/*fastq'
+  303  history | grep '/home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq'
+  304  ls files/results/nerrs/core-metrics-results/
+  305  mkdir files/results/nerrs/core-metrics-results/swmp-data
+  306  cp ../NERRs-18s-metabarcoding/results/core-metrics-results/update-swmp/*qzv files/results/nerrs/core-metrics-results/swmp-data/
+  307  git add files/results/nerrs/core-metrics-results/swmp-data/*
+  308  git commit -m 'newplots'
+  309  git push
+  310  git pull
+  311  git stash
+  312  git pull
+  313  ls files/results/nerrs/core-metrics-results
+  314  ls files/results/nerrs/core-metrics-results/swmp-data/
+  315  ls -ltrh files/results/nerrs/core-metrics-results/swmp-data/
+  316  ls files/results/nerrs/core-metrics-results
+  317  ls -ltrh files/results/nerrs/core-metrics-results
+  318  ruby
+  319  cd results/
+  320  ls
+  321  ls -ltrh
+  322  cd core-metrics-results/
+  323  ls
+  324  ls -ltrh
+  325  ls -ltrh phylogenetic/
+  326  conda activate base
+  327  cd ../CYANO/
+  328  ls
+  329  cd 16s/
+  330  ls
+  331  mkdir plots
+  332  pwd
+  333  realpath plots/*
+  334  ls
+  335  cd results/
+  336  ls
+  337  ls -ltrh
+  338  screen -dr
+  339  conda activate base
+  340  conda activate qiime2-amplicon-2024.5 & R
+  341  conda activate qiime2-amplicon-2024.5
+  342  R
+  343  vim metadata/sample-times-formatted.csv
+  344  ls metadata
+  345  ls -ltrh metadata
+  346  vim tmp
+  347  mv tmp metadata/swmp-realtime-sample-metadata.tsv
+  348  vim metadata/swmp-realtime-sample-metadata.tsv
+  349  conda activate qiime2-amplicon-2024.5
+  350  qiime feature-table filter-features   --i-table results/NERRS_18s_euks_hum_samples-table.qza   --p-min-frequency 252   --o-filtered-table results/NERRS_18s_euks_hum_frequency-filtered-table.qza
+  351   qiime feature-table filter-samples    --i-table results/NERRS_18s_euks_hum_frequency-filtered-table.qza    --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv    --o-filtered-table results/NERRS_18s_euks_hum_swmp-sample-filtered-table.qza  
+  352  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  353  ls
+  354  head metadata/update-swmp-realtime-sample-metadata.tsv 
+  355  head metadata/update-swmp-realtime-sample-metadata.tsv | awk '{print NF}'
+  356  head metadata/update-swmp-realtime-sample-metadata.csv | awk '{print NF}'
+  357  head metadata/update-swmp-realtime-sample-metadata.tsv| awk '{print NF}'
+  358  head metadata/update-swmp-realtime-sample-metadata.csv
+  359  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  360  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv 
+  361  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  362  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | less -S
+  363  tabview metadata/update-swmp-realtime-sample-metadata.tsv
+  364  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  365  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  366  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  367  awk 'NF==85{print $0}' metadata/update-swmp-realtime-sample-metadata.tsv 
+  368  df[which(df$SampleID == 'JCLSw1106231'),]
+  369  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  370  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  371  awk 'NF==85{print $0}' metadata/update-swmp-realtime-sample-metadata.tsv 
+  372  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  373  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  374  awk 'NF==85{print $0}' metadata/update-swmp-realtime-sample-metadata.tsv 
+  375  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  376  tr ',' '\t' < metadata/update-swmp-realtime-sample-metadata.csv > metadata/update-swmp-realtime-sample-metadata.tsv 
+  377  awk '{print NF}' metadata/update-swmp-realtime-sample-metadata.tsv | sort | uniq
+  378  wc -l metadata/update-swmp-realtime-sample-metadata.tsv 
+  379  wc -l metadata/update-swmp-realtime-sample-metadata.csv 
+  380  ls -ltrh metadata
+  381  rm metadata/update-swmp-realtime-sample-metadata*
+  382  ls -ltrh metadata
+  383  wc -l metadata/update-swmp-realtime-sample-metadata.csv 
+  384  tail metadata/update-swmp-realtime-sample-metadata.csv 
+  385  realpath metadata/update-swmp-realtime-sample-metadata.csv 
+  386  ls -ltrh metadata
+  387  realpath swmp-realtime-sample-metadata.tsv
+  388  realpath metadataswmp-realtime-sample-metadata.tsv
+  389  realpath metadata/swmp-realtime-sample-metadata.tsv
+  390  vim tmp
+  391  mv tmp metadata/swmp-realtime-sample-metadata.csv
+  392  tr ',' '\t' < metadata/swmp-realtime-sample-metadata.csv > metadata/swmp-realtime-sample-metadata.tsv
+  393   qiime feature-table filter-samples    --i-table results/NERRS_18s_euks_hum_frequency-filtered-table.qza    --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv    --o-filtered-table results/NERRS_18s_euks_hum_swmp-sample-filtered-table.qza  
+  394  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  395  ls -lrth results/
+  396  ls -lrth results/*tree*
+  397  ls -ltrh results/*rep-seqs*
+  398  ls
+  399  ls -ltrh
+  400  ls -ltrh results/
+  401  results/NERRS_18s_euks_hum_samples-table.qza
+  402  results/NERRS_18s_euks_hum_samples-table.qzals results/NERRS_18s_euks_hum_samples-table.qza
+  403  ls results/NERRS_18s_euks_hum_samples-table.qza
+  404  ls results/core-metrics-results
+  405  ls -ltrh results/core-metrics-results
+  406  qiime diversity core-metrics-phylogenetic     --i-phylogeny results/core-metrics-results/NERRS_18s_rooted-tree.qza     --i-table results/NERRS_18s_euks_hum_samples-table.qza     --p-with-replacement     --p-sampling-depth 1000     --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv     --output-dir results/core-metrics-results/update-swmp
+  407  qiime diversity core-metrics-phylogenetic
+  408  qiime diversity core-metrics-phylogenetic     --i-phylogeny results/core-metrics-results/NERRS_18s_rooted-tree.qza     --i-table results/NERRS_18s_euks_hum_samples-table.qza     --p-with-replacement     --p-sampling-depth 1000     --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv     --p-ignore-missing-samples     --output-dir results/core-metrics-results/update-swmp
+  409  qiime diversity core-metrics-phylogenetic     --i-phylogeny results/core-metrics-results/NERRS_18s_rooted-tree.qza     --i-table results/NERRS_18s_euks_hum_swmp-sample-filtered-table.qza     --p-with-replacement     --p-sampling-depth 1000     --m-metadata-file metadata/update-swmp-realtime-sample-metadata.tsv     --p-ignore-missing-samples     --output-dir results/core-metrics-results/update-swmp
+  410  conda activate qiime2-amplicon-2024.5 && R
+  411  conda activate base
+  412  cd  /home/users/jtm1171/CYANO
+  413  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  414  R
+  415  conda activte qiime2-amplicon-2024.5
+  416  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  417  R
+  418  conda activate qiime2-amplicon-2024.5
+  419  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  420  R
+  421  conda activate base
+  422  conda activate qiime2-amplicon-2024.5
+  423  qiime taxa barplot
+  424  cd ../CYANO/
+  425  ls
+  426  export locus='16s'
+  427  export primer="16s_V4-V5"
+  428  export run='Wolfeboro-Lakes-Cyanobacteria'
+  429  source /home/users/jtm1171/code/qiime2_parameters.sh
+  430   qiime taxa collapse 	--i-table ${locus}/runs/${run}_table.qza 	--i-taxonomy ${locus}/runs/${run}_hybrid_taxonomy.qza 	--p-level 1 	--o-collapsed-table ${locus}/runs/${run}_collapse_phylum
+  431  ls
+  432   qiime taxa collapse 	--i-table ${locus}/runs/qiime_out/${run}_table.qza 	--i-taxonomy ${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy.qza 	--p-level 1 	--o-collapsed-table ${locus}/runs/qiime_out/${run}_collapse_phylum
+  433   qiime taxa collapse 	--i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza 	--i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza 	--p-level 1 	--o-collapsed-table ${locus}/runs/${run}/qiime_out/${run}_collapse_phylum
+  434  ls ${locus}/run/qiime_out/${run}_table.qza
+  435  ls ${locus}/runs/${run}/qiime_out/${run}_table.qza
+  436   qiime taxa collapse 	--i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza 	--i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza 	--p-level 5 	--o-collapsed-table ${locus}/runs/${run}/qiime_out/${run}_collapse_family \
+  437  qiime taxa filter-table     --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_table-filt.qza
+  438  qiime taxa filter-table
+  439  cd ${locus}/runs/${run}/qiime_out
+  440  ls
+  441  ls -ltrh
+  442  ls Wolfeboro-Lakes-Cyanobacteria_dns_export
+  443  less Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv 
+  444  cut -f2 Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv 
+  445  cut -f2 Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv | sort | uniq -c
+  446  cut -f2 Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv | sort | uniq -c | sort -k1
+  447  cut -f2 Wolfeboro-Lakes-Cyanobacteria_vsearch_taxonomy-tophits/blast6.tsv | sort | uniq -c | sort -k1 -h
+  448  ls -ltrh 
+  449  qiime tools export --input-path Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy.qza
+  450  qiime tools export --input-path Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy.qza --output-path Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy
+  451  less -S Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy/taxonomy.tsv 
+  452  cut -f2 Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy/taxonomy.tsv 
+  453  cut -f2 Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy/taxonomy.tsv | cut -f1 -d';'
+  454  cut -f2 Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy/taxonomy.tsv | cut -f1 -d';' | sort | uniq -c | sort -h -k1
+  455  qiime taxa filter-table
+  456  qiime taxa filter-table     --p-include Bacteria
+  457      --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_table-Bacteria.qza
+  458  qiime taxa filter-table     --p-include Bacteria     --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_table-Bacteria.qza
+  459  cd ../../
+  460  ## Filter by tax
+  461  qiime taxa filter-table     --p-include Bacteria     --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_table-Bacteria.qza
+  462  less -S /tmp/qiime2-q2cli-err-ej_1pvz3.log
+  463  qiime feature-table filter-features     --i-table ${locus}/runs/${run}/qiime_out/${run}_table.qza     --m-metadata-file ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table ${locus}/runs/${run}/qiime_out/${run}_filtered-table.qza
+  464   qiime taxa collapse 	--i-table ${locus}/runs/${run}/qiime_out/${run}_filtered-table.qza 	--i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza 	--p-level 1 	--o-collapsed-table ${locus}/runs/${run}/qiime_out/${run}_collapse_phylum
+  465  ls -ltrh 16s/runs/Wolfeboro-Lakes-Cyanobacteria/
+  466  ls -ltrh 16s/runs/Wolfeboro-Lakes-Cyanobacteria/metadata/
+  467  ls -ltrh 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out/
+  468  qiime taxa barplot      --i-table  ${locus}/runs/${run}/qiime_out/${run}_collapse_phylum.qza      --i-taxonomy ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza      --o-visualization ${locus}/runs/${run}/qiime_out/${run}_phylun-taxa-barplot      --m-metadata-file ${locus}/runs/${run}/qiime_out/${run}_metadata.tsv
+  469   qiime taxa collapse
+  470  echo ${locus}/runs/$run/qiime_out/${run}
+  471  ls /usr/lib/jvm/jre/lib/server
+  472  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  473  R
+  474  conda activate base
+  475  screen -dr
+  476  cd ../CYANO/16s/runs
+  477  ls
+  478  ls -ltrh
+  479  cd Wolfeboro-Lakes-Cyanobacteria/
+  480  ls
+  481  cd qiime_out/
+  482  ls
+  483  less readcounts 
+  484  less -S 02022026_cutadapt.out
+  485  conda activate qiime2-amplicon-2024.5
+  486  conda activate base
+  487  run=Wolfeboro-Lakes-Cyanobacteria
+  488  qiime feature-table tabulate-seqs         --i-data qiime_out/${run}_single-rep-seqs.qza         --o-visualization qiime_out/${run}_single-rep-seqs
+  489  cd ../
+  490   qiime feature-table tabulate-seqs         --i-data qiime_out/${run}_single-rep-seqs.qza         --o-visualization qiime_out/${run}_single-rep-seqs
+  491  qiime metadata tabulate         --m-input-file qiime_out/${run}_dns.qza         --o-visualization qiime_out/${run}_dns     && qiime tools export         --input-path qiime_out/${run}_dns.qzv         --output-path qiime_out/${run}_dns_export     && cp         qiime_out/${run}_dns_export/metadata.tsv         qiime_out/${run}_metadata.tsv     && echo -e "file\tprePolyG_filter\tpostPolyG_filter\t$(head -n1 qiime_out/${run}_metadata.tsv | sed 's/ /_/g' )" > qiime_out/${run}_read_report.txt     && while read line ; do          samp=$( echo $line | awk '{print $1}' );         lintab=$(echo $line | awk -v OFS='\t' '{print $0}');         echo -e "$(grep $samp qiime_out/readcounts | head -n1)\t${line}"
+  492          done <<< "$( grep -v ^# qiime_out/${run}_metadata.tsv | grep -v '^sample-id')" | sort -h -k12 >> qiime_out/${run}_read_report.txt     && echo "done with paired end"
+  493  ls -ltrh
+  494  ls -ltrh qiime_out/
+  495  less -S qiime_out/Wolfeboro-Lakes-Cyanobacteria_read_report.txt
+  496  screen
+  497  ls -ltrh ../../results/
+  498  ls
+  499  cd qiime_out/
+  500  ls
+  501  ls -ltrh
+  502  ls
+  503  ls -ltrh
+  504  cd ../
+  505  ls
+  506  cd ../
+  507  ls
+  508  cd ../
+  509  ls
+  510  ls -ltrh results/ASVs_out
+  511  realpath results/*xlsx
+  512  pandoc
+  513  cd Lessons/
+  514  ls
+  515  pandoc Lab3.md -s -o lab3.pdf
+  516  export locus='16s'
+  517  export primer="16s_V4-V5"
+  518  export run='Wolfeboro-Lakes-Cyanobacteria'
+  519  source /home/users/jtm1171/code/qiime2_parameters.sh
+  520  cd ../
+  521  ls
+  522  cd ../
+  523  ls
+  524  qiime feature-classifier classify-hybrid-vsearch-sklearn   --i-query ${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza   --i-classifier ${sklearn}   --i-reference-reads ${refreads}   --i-reference-taxonomy  ${reftax}   --p-threads 32   --p-perc-identity ${perc_identity}   --p-query-cov ${query_cov}   --p-maxhits all   --p-maxrejects all   --p-maxaccepts ${maxaccepts}   --p-min-consensus 0.51   --p-confidence 0   --o-classification ${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy
+  525  echo $sklearn
+  526  qiime feature-classifier classify-hybrid-vsearch-sklearn   --i-query ${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza   --i-classifier ${sklearn}   --i-reference-reads ${refreads}   --i-reference-taxonomy  ${reftax}   --p-threads 32   --p-perc-identity ${perc_identity}   --p-query-cov ${query_cov}   --p-maxhits all   --p-maxrejects all   --p-maxaccepts ${maxaccepts}   --p-min-consensus 0.51   --p-confidence 0   --o-classification ${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy
+  527  qiime feature-classifier classify-consensus-vsearch   --i-query ${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza     --i-reference-reads ${refreads}     --i-reference-taxonomy  ${reftax}     --p-threads 41     --p-perc-identity ${perc_identity}     --p-query-cov ${query_cov}     --p-maxhits all     --p-maxrejects all     --p-weak-id ${weak_id}     --p-maxaccepts ${maxaccepts}     --p-min-consensus 0.51     --o-classification ${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy     --o-search-results ${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy-tophits
+  528  qiime tools export   --input-path ${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy-tophits.qza   --output-path ${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy-tophits
+  529    qiime metadata tabulate         --m-input-file ${locus}/runs/${run}/qiime_out/${run}_dns.qza         --o-visualization ${locus}/runs/${run}/qiime_out/${run}_dns 
+  530    qiime tools export         --input-path ${locus}/runs/${run}/qiime_out/${run}_dns.qzv         --output-path ${locus}/runs/${run}/qiime_out/${run}_dns_export 
+  531    cp     ${locus}/runs/${run}/qiime_out/${run}_dns_export/metadata.tsv     ${locus}/runs/${run}/qiime_out/${run}_metadata.tsv 
+  532  ## Metadata 
+  533  ## find "${locus}/runs" -name metadata.tsv -exec head -n1 {} \; | head -n1 > ${locus}/metadata/HD24_${locus}_metadata.tsv
+  534  ## find "${locus}/runs" -name metadata.tsv -exec cat {} \; | grep -v 'sample-id' | grep -v '^#q2:types' >> ${locus}/metadata/HD24_${locus}_metadata.tsv
+  535  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH' && /home/users/jtm1171/code/qiime2_generate_simple_output_tables.r   "${locus}/runs/$run/qiime_out/${run}_table.qza"   "${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza"   "${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy.qza"   "${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy.qza"   "${locus}/runs/${run}/qiime_out/${run}_metadata.tsv"   ${min}   ${max}   48   "${locus}/results/${run}_${locus}"
+  536  qiime feature-table filter-features     --i-table runs/${run}/qiime_out/${run}_table.qza     --m-metadata-file runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza     --o-filtered-table results/${run}_filtered-table.qza
+  537  ls /usr/lib/jvm/jre/lib/server
+  538  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH' && /home/users/jtm1171/code/qiime2_generate_simple_output_tables.r   "${locus}/runs/$run/qiime_out/${run}_table.qza"   "${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza"   "${locus}/runs/$run/qiime_out/${run}_hybrid_taxonomy.qza"   "${locus}/runs/$run/qiime_out/${run}_vsearch_taxonomy.qza"   "${locus}/runs/${run}/qiime_out/${run}_metadata.tsv"   ${min}   ${max}   48   "${locus}/results/${run}_${locus}"
+  539  ls "${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qzaA"
+  540  ls ${locus}/runs/${run}/qiime_out/${run}_table.qza
+  541  ls ${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza
+  542  ls ${locus}/runs/${run}/qiime_out/${run}_vsearch_taxonomy.qza
+  543  ls ${locus}/runs/${run}/qiime_out/${run}_metadata.tsv
+  544  /home/users/jtm1171/code/qiime2_generate_simple_output_tables.r   "${locus}/runs/${run}/qiime_out/${run}_table.qza"   "${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza"   "${locus}/runs/${run}/qiime_out/${run}_hybrid_taxonomy.qza"   "${locus}/runs/${run}/qiime_out/${run}_vsearch_taxonomy.qza"   "${locus}/runs/${run}/qiime_out/${run}_metadata.tsv"   ${min}   ${max}   48   "${locus}/results/${run}_${locus}"
+  545  ls 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out
+  546  ls 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out/Wolfeboro-Lakes-Cyanobacteria_hybrid_taxonomy.qza
+  547  export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH'
+  548  pwd
+  549  ls -ltrh 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out
+  550  qiime phylogeny align-to-tree-mafft-fasttree    --i-sequences ${locus}/runs/$run/qiime_out/${run}_single-rep-seqs.qza    --o-alignment ${locus}/runs/${run}/qiime_out/${run}_aligned-rep-seqs    --o-masked-alignment ${locus}/runs/${run}/qiime_out/${run}_masked-aligned-rep-seqs.qza    --o-tree ${locus}/runs/${run}/qiime_out/${run}_unrooted-tree.qza    --o-rooted-tree ${locus}/runs/${run}/qiime_out/${run}_rooted-tree.qza    --p-n-threads 24
+  551  ls 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out
+  552  less 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out/Wolfeboro-Lakes-Cyanobacteria_read_report.txt
+  553  less 16s/runs/Wolfeboro-Lakes-Cyanobacteria/qiime_out/readcounts 
+  554  ls
+  555  R
+  556  conda activate qiime2-amplicon-2024.5
+  557  conda activate base
+  558  conda activate qiime2-amplicon-2024.5
+  559  R
+  560  conda activate base
+  561  ls -ltrh 
+  562  conda activate qiime2-amplicon-2024.5 & R
+  563  conda activate qiime2-amplicon-2024.5
+  564  R
+  565  find images/ -name filtered*
+  566  find images/ -name filtered* -exec cp {} ../jthmiller.github.io/files/results/nerrs/core-metrics-results/ \;
+  567  ls -ltrh code/
+  568  ls -ltrh results/*tree*
+  569  ls -ltrh metadata
+  570  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  571  cp metadata/update-swmp-realtime-sample-metadata.tsv metadata/phylo_update-swmp-realtime-sample-metadata.tsv
+  572  ls -ltrh results/
+  573  ls -ltrh results/*taxonomy*
+  574  ls -ltrh metadata
+  575  conda activate qiime2-amplicon-2024.5
+  576  R
+  577  ls
+  578  ls -ltrh
+  579  ls -ltrh code/
+  580  ls
+  581  ls -ltrh code/
+  582  ls
+  583  ls -ltrh
+  584  rm 'cales = "free", independent = "y") ' 
+  585  ls -ltrh
+  586  rm '(x
+  587  rm '(x = Parameter, y = Value,colour = factor(NERR), fill = factor(NERR))) +' 
+  588  ls -ltrh code/
+  589  ls -ltrh code/18s*
+  590  ls -ltrh metadata
+  591  less -S metadata/update-swmp-realtime-sample-metadata.csv
+  592  grep 'GTMFM' metadata/update-swmp-realtime-sample-metadata.csv 
+  593  grep 'GTMFM' metadata/update-swmp-realtime-sample-metadata.csv | less -S
+  594  vim tmp
+  595  mv tmp metadata/swmp-realtime-sample-metadata.csv 
+  596  tr ',' '\t' < metadata/swmp-realtime-sample-metadata.csv metadata/swmp-realtime-sample-metadata.tsv 
+  597  tr ',' '\t' < metadata/swmp-realtime-sample-metadata.csv > metadata/swmp-realtime-sample-metadata.tsv 
+  598  less -S metadata/swmp-realtime-sample-metadata.tsv
+  599  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  600  grep 'GTMPI'  metadata/update-swmp-realtime-sample-metadata.tsv | less -S
+  601  grep 'GTMPI'  metadata/update-swmp-realtime-sample-metadata.csv | less -S
+  602  ls -ltrh
+  603  ls -ltrh metadata
+  604  ls -ltrh metadata/swmp-realtime-sample-metadata.tsv 
+  605  less -S  metadata/swmp-realtime-sample-metadata.tsv 
+  606  grep 'GBLR'  metadata/swmp-realtime-sample-metadata.tsv | less -S 
+  607  grep 'GTMFM'  metadata/swmp-realtime-sample-metadata.tsv | less -S 
+  608  ls -ltrh metadata
+  609  ls -ltrh metadata/update-swmp-realtime-sample-metadata.tsv
+  610  grep 'GTMFM'  metadata/swmp-realtime-sample-metadata.tsv | less -S 
+  611  sample_data(ps)
+  612  ls -ltrh
+  613  ls -ltrh metadata
+  614  grep 'GTMFM'  metadata/update-swmp-realtime-sample-metadata.tsv | less -S 
+  615  grep 'GTMFM'  metadata/swmp-realtime-sample-metadata.tsv | less -S 
+  616  less -S metadata/swmp-realtime-sample-metadata.csv
+  617  head -n1 metadata/swmp-realtime-sample-metadata.csv
+  618  head -n1 metadata/swmp-realtime-sample-metadata.csv | tr ',' '\n'
+  619  head -n1 metadata/swmp-realtime-sample-metadata.csv | tr ',' '\n' | sort | uniq -c
+  620  ls
+  621  cd metadata/
+  622  ls
+  623  ls -ltrh
+  624  rm swmp-realtime-sample-metadata.*
+  625  vim tmp
+  626  mv tmp swmp-realtime-sample-metadata.csv
+  627  ls -ltrh
+  628  ls
+  629  ls -ltrh
+  630  vim tmp
+  631  mv tmp swmp-realtime-sample-metadata.csv 
+  632  ls -ltrh
+  633  less -S update-swmp-realtime-sample-metadata.tsv
+  634  ls -ltrh
+  635  vim tmp
+  636  less -S swmp-realtime-sample-metadata.csv
+  637  mv tmp swmp-realtime-sample-metadata.csv 
+  638  ls -ltrh 
+  639  less -S swmp-realtime-sample-metadata.csv
+  640  less -S update-swmp-realtime-sample-metadata.tsv
+  641  less -S swmp-realtime-sample-metadata.csv
+  642  grep 'Kaho' swmp-realtime-sample-metadata.csv 
+  643  grep 'Kaho ªokele' swmp-realtime-sample-metadata.csv 
+  644  grep 'Kaho*okele' swmp-realtime-sample-metadata.csv 
+  645  vim tmp
+  646  mv tmp swmp-realtime-sample-metadata.csv 
+  647  grep 'Kaho' swmp-realtime-sample-metadata.csv 
+  648  params_df <- data.frame(sample_data(ps)[,params])
+  649  conda activate qiime2-amplicon-2024.5
+  650  R
+  651  git stash
+  652  git pull
+  653  pwd
+  654  cd 
+  655  pwd
+  656  cd gen711-811
+  657  cd 
+  658  pwd
+  659  cd $HOME
+  660  cd ~/gen711-811
+  661  clear
+  662  cd shell_data/
+  663  cd untrimmed_fastq/
+  664  cd 
+  665  clear
+  666  cd notadir
+  667  cd gen711-811/shell_data/
+  668  ls
+  669  ls ../../
+  670  ls --all
+  671  ls
+  672  ls --all
+  673  ls --all .hidden/
+  674  ls -a
+  675  ls .*
+  676  ls -Fa
+  677  ls -laF
+  678  clear
+  679  ls *fq
+  680  cd 
+  681  cd gen711-811/shell_data/untrimmed_fastq/
+  682  ls *.fastq
+  683  ls *977.fastq
+  684  ls /usr/bin/
+  685  ls /usr/bin/*sh
+  686  ls /usr/bin/*.sh
+  687  ls /usr/bin/c*
+  688  ls /usr/bin/c* | wc -l
+  689  clear
+  690  echo *fastq
+  691  echo everything
+  692  clear 
+  693  history
+  694  ls /usr/bin/c* | wc -l
+  695  ls /usr/bin/*.sh
+  696  history | grep 'grep'
+  697  clear
+  698  cat SRR097977.fastq 
+  699  clear
+  700  less SRR097977.fastq 
+  701  less -S SRR097977.fastq 
+  702  less -S SRR098026.fastq 
+  703  grep 'TTTTT' *fastq
+  704  less -S SRR098026.fastq 
+  705  less -S SRR097977.fastq 
+  706  grep TTTTT SRR097977.fastq 
+  707  grep TTTTT SRR097977.fastq | wc -l
+  708  less -S SRR097977.fastq 
+  709  head SRR097977.fastq 
+  710  tail SRR097977.fastq 
+  711  cvlear
+  712  clear
+  713  tail SRR097977.fastq 
+  714  tail -n3 SRR097977.fastq 
+  715  clear
+  716  tail -n3 SRR097977.fastq 
+  717  mkdir backup
+  718  ls
+  719  cp SRR098026.fastq SRR098026-backup.fastq 
+  720  clear
+  721  pwd
+  722  clear
+  723  ls
+  724  mv *backup.fastq backup/
+  725  clear
+  726  ls
+  727  fastqc
+  728  ls
+  729  cd ../
+  730  ls
+  731  git clone https://github.com/jthmiller/shell-genomics.git
+  732  cp shell-genomics/episodes/fig/* gen711-811_lessons/Lessons/fig/
+  733  ls -ltrh gen711-811
+  734  ls -ltrh gen711-811/labs/
+  735  mkdir gen711-811/labs/fig
+  736  cp shell-genomics/episodes/fig/* gen711-811/labs/fig/
+  737  ls /usr/bin/*.sh
+  738  conda deactivate
+  739  fastqc
+  740  conda env list
+  741  ls
+  742  cd gen711-811
+  743  cd
+  744  cd gen711-811/shell_data/
+  745  ld
+  746  ls
+  747  cd 
+  748  cd gen711-811
+  749  cd ..
+  750  ls -a gen711-811/shell_data/
+  751  conda env list
+  752  ls /
+  753  ls /bin/
+  754  which conda
+  755  fastqc
+  756  conda activate qiime2-amplicon-2024.5
+  757  conda activate base
+  758  conda activate qiime2-amplicon-2024.5
+  759  R
+  760  conda activate base
+  761  conda activate qiime2-amplicon-2024.5 && export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH' && R
+  762  conda activate base
+  763  conda activate base
+  764  cd 
+  765  cd CYANO/
+  766  ls
+  767  cd 16s/
+  768  ls
+  769  ls results/
+  770  ls -ltrh results/
+  771  realpath results/Wolfeboro-Lakes-Cyanobacteria_16s.xlsx
+  772  conda activate base
+  773  vim ../.bashrc 
+  774  vim ../.condarc
+  775  grep ../\.*
+  776  grep 'base' ../\.*
+  777  ls
+  778  ls -ltrh
+  779  ls -a
+  780  ls -ltrh 
+  781  ls /usr/lib/jvm/jre/lib/server
+  782  conda activate qiime2-amplicon-2024.5 && R
+  783  conda activate qiime2-amplicon-2024.5 && export LD_LIBRARY_PATH='/usr/lib/jvm/jre/lib/server:$LD_LIBRARY_PATH' && R
+  784  ls -ltrh metadata
+  785  realpath update-swmp-realtime-sample-metadata.csv
+  786  realpath metadata/update-swmp-realtime-sample-metadata.csv
+  787  conda activate qiime2-amplicon-2024.5
+  788  R
+  789  df <- read.table('metadata/swmp-realtime-sample-metadata.csv', header = T, sep = ',', stringsAsFactors = F)
+  790  ls -ltrh metadata
+  791  read.csv('metadata/update-swmp-realtime-sample-metadata.csv')
+  792  less -S update-swmp-realtime-sample-metadata.tsv
+  793  less -S metadata/update-swmp-realtime-sample-metadata.tsv
+  794  grep ',' metadata/update-swmp-realtime-sample-metadata.
+  795  grep ',' metadata/update-swmp-realtime-sample-metadata.tsv 
+  796  cd metadata/
+  797  ls
+  798  tr ',' '\t' < update-swmp-realtime-sample-metadata.csv
+  799  tr ',' '\t' < update-swmp-realtime-sample-metadata.csv | less -S
+  800  tr ',' '\t' < update-swmp-realtime-sample-metadata.csv | awk '{print NF}' | sort | uniq -c
+  801  tr ',' '\t' < update-swmp-realtime-sample-metadata.csv > update-swmp-realtime-sample-metadata.tsv 
+  802  ls -ltrh ../results/
+  803  ls -ltrh ../results/*tax*
+  804  ls ../results/NERRS_18s_hybrid_taxonomy_allaccepts_80perc-pr2.qza
+  805  top
+  806  conda activate qiime2-amplicon-2024.5
+  807  R
+  808  ssh jtm1171@premise.sr.unh.edu
+  809  ssh -v jtm1171@premise.sr.unh.edu
+  810  cd ../
+  811  ls
+  812  ls .ssh/
+  813  ls .ssh/id_ed25519.pub 
+  814  cat .ssh/id_ed25519.pub 
+  815  ls .ssh/
+  816  cat .ssh/known_hosts
+  817  cd .ssh
+  818  cat id_ed25519.pub 
+  819  ssh jtm1171@premise.sr.unh.edu
+  820  ls
+  821  less -S known_hosts
+  822  ssh -V jtm1171@premise.sr.unh.edu
+  823  ssh -v jtm1171@premise.sr.unh.edu
+  824  ls -ltrh
+  825  vim id_ed25519
+  826  less -S id_ed25519.pub
+  827  less -S authorized_keys 
+  828  ls
+  829  vim config
+  830  cat known_hosts
+  831  ls -ltrh
+  832  vim config 
+  833  screen -dr
+  834  screen -dr 1490087.pts-47.ron
+  835  top
+  836  ls -ltrh 
+  837  ls -ltrh code/
+  838  screen
+  839  screen -dr
+  840  screen -dr 1496519.pts-47.ron
+  841  conda activate genomics
+  842  conda info --envs
+  843  ls ~
+  844  find / -name envs
+  845  find / -name envs | grep -v 'denied'
+  846  find / -name envs | grep -V 'denied'
+  847  find / -name envs  2>/dev/null
+  848  ls /home/share/anaconda/envs
+  849  conda activate  /home/share/anaconda/envs/genomics
+  850  conda activate qiime2-amplicon-2024.5
+  851  R
+  852  screen
+  853  ls
+  854  cd shell_data/
+  855  ls
+  856  cd untrimmed_fastq/
+  857  ls
+  858  clear
+  859  cd ~
+  860  ls gen711-811/
+  861  ls
+  862  cd gen711-811/shell_data/untrimmed_fastq/
+  863  ls
+  864  ls -l
+  865  ls -l -h
+  866  ls /home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq/
+  867  ls -lh  /home/users/jtm1171/gen711-811/shell_data/untrimmed_fastq/
+  868  ls
+  869  cd backup/
+  870  ls
+  871  cd ../
+  872  ls
+  873  cp SRR097977.fastq backup/SRR097977_backup.fastq 
+  874  echo 'notes' > tmp
+  875  ls
+  876  cat tmop
+  877  cat tmp
+  878  rm tmp 
+  879  cd backup/
+  880  clear
+  881  ls
+  882  ls -l
+  883  chmod -w SRR097977_backup.fastq 
+  884  ls -l
+  885  echo 'stuff' > SRR097977_backup.fastq
+  886  ls
+  887  cd ../
+  888  ls
+  889  rm -Rf backup/
+  890  ls
+  891  clear
+  892  conda activate genomics
+  893  conda activate /home/share/anaconda/envs/genomics
+  894  clear
+  895  conda deactivate
+  896  fastqc
+  897  conda activate /home/share/anaconda/envs/genomics
+  898  fastqc
+  899  fastqc -h
+  900  fastqc *.fastq*
+  901  ls 
+  902  which fastqc
+  903  which cp
+  904  mkdir fastqc_untrimmed_reads
+  905  ls
+  906  unzip *zip
+  907  ls
+  908  unzip *.zip
+  909  SRR097SRR097977_fastqc.zip
+  910  screen
+  911  cd shell_data/
+  912  ls
+  913  cd untrimmed_fastq/
+  914  ls
+  915  ls backup/
+  916  pwd
+  917  screen -dr
+  918  screen -dr 1490087.pts-47.ron
+  919  screen -dr 1496519.pts-47.ron
+  920  ls =ltrh
+  921  ls -ltrh
+  922  screen
+  923  top
+  924  conda activate qiime2-amplicon-2024.5
+  925  screen
+  926  conda activate qiime2-amplicon-2024.5
+  927  sample_data(ps)
+  928  conda activate qiime2-amplicon-2024.5
+  929  R
+  930  sreen
+  931  screen
+  932  screen -dr
+  933  screen -dr 2002736.pts-0.ron
+  934  screen -dr
+  935  screen -dr 1490087.pts-47.ron
+  936  screen -dr 2035671.pts-23.ron
+  937  conda activate qiime2-amplicon-2024.5
+  938  R
+  939  conda install r-torch
+  940  R
+  941  screen -dr
+  942  screen -dr 3220649.pts-27.ron
+  943  screen -dr 3148742.pts-18.ron
+  944  screen -dr 2035671.pts-23.ron
+  945  screen -dr
+  946  screen -dr 3220649.pts-27.ron 
+  947  screen -dr 3148742.pts-18.ron 
+  948  screen -dr 2035671.pts-23.ron
+  949  top
+  950  conda activate qiime2-amplicon-2024.5
+  951  R
+  952  ls
+  953  conda install pytorch
+  954  conda install r-reticulate
+  955  conda install torch
+  956  screen -dr
+  957  screen -dr 3148742.pts-18.ron
+  958  screen -dr 3220649.pts-27.ron
+  959  ls
+  960  mkdir transfer
+  961  cd transfer/
+  962  cd ../
+  963  cp 'results/NERRS_18s_euks_hum_swmp-sample-filtered-table.qza' transfer/
+  964  cp 'results/NERRS_18s_hybrid_taxonomy_allaccepts_80perc-pr2.qza' transfer/
+  965  cp 'results/NERRS_18s_vsearch_taxonomy_10accepts_90perc-silva.qza' transfer/
+  966  cp 'results/NERRS_18s_filtered_rep-seqs.qza' transfer/
+  967  cp 'results/Filtered_' transfer/
+  968  cp 'metadata/update-swmp-realtime-sample-metadata.tsv' transfer/
+  969  cp 'results/NERRS_18s_9_12_24_rooted-tree.qza' transfer/
+  970  cp 'refdbs/pr2_version_5.0.0_SSU_18S-V9_uniq_tax.qza' transfer/
+  971  cp 'results/NERRS_18s_vsearch_taxonomy_allaccepts_80perc-pr2.qza' transfer/
+  972  tar -zcvf 18sdata.tar.gz transfer
+  973  ls
+  974  ls -ltrh
+  975  realpath 18sdata.tar.gz 
+  976  top
+  977  screen -dr
+  978  screen -dr 3220649.pts-27.ron 
+  979  screen -dr 3148742.pts-18.ron
+  980  screen
+  981  ls
+  982  screen
+  983  screen -dr
+  984  screen -dr 3220649.pts-27.ron
+  985  screen -dr 3148742.pts-18.ron
+  986  top
+  987  screen -dr
+  988  screen -dr 3220649.pts-27.ron
+  989  screen -dr 3148742.pts-18.ron
+  990  screen -dr 2035671.pts-23.ron
+  991  conda activate qiime2-amplicon-2024.5
+  992  R
+  993  screen -dr
+  994  screen -dr 713435.pts-31.ron 
+  995  screen -dr 3220649.pts-27.ron
+  996  screen -dr 3148742.pts-18.ron
+  997  screen -dr
+  998  screen -dr 3220649.pts-27.ron
+  999  screen -dr 3148742.pts-18.ron
+ 1000  screen -dr 2035671.pts-23.ron
+ 1001  ls
+ 1002  cd shell_data/untrimmed_fastq/
+ 1003  ls
+ 1004  ls fastqc_untrimmed_reads/
+ 1005  clear
+ 1006  ls
+ 1007  unzip SRR098026_fastqc.zip 
+ 1008  ls -lrth
+ 1009  cd SRR098026_fastqc/
+ 1010  ls
+ 1011  less -S summary.txt 
+ 1012  which ls
+ 1013  whgich cp
+ 1014  which cp
+ 1015  conda activate /home/share/anaconda/envs/genomics
+ 1016  history
+ 1017  history | grep conda
+ 1018  history > myrecehist.txt
+ 1019  ls
+ 1020  rm myrecehist.txt 
+ 1021* history >> myrecehist.txt
+ 1022  history > myrecehist.txt
+ 1023  ls
+ 1024  wc -l myrecehist.txt 
+ 1025  history >> myrecehist.txt

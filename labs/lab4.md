@@ -33,13 +33,12 @@ _fastq/ to bring back to fastq
 ### EXERCISE 2: WILDCARDS
 What would the output look like if the wildcard could *not* be matched? Compare the outputs
 
-* is a wildcard. ls*.fastq is an unsuccessful match. sample1.fastq means its a succesful match. ls .* (looks into anything with a hidden folder)
-
 ### EXERCISE 3: NAVIGATING PRACTICE
 Navigate to your home directory. From there, list the contents of the untrimmed_fastq directory
 
 to navigate back home: cd or /HOME or cd$HOME are ways to get the home page or ~HOME. cd ../.. (cd means change directory)
 
+ls 
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
@@ -77,8 +76,6 @@ Hint: hidden files and folders in Unix start with ., for example .my_hidden_dire
 
 What is the hidden file name in the hidden directory?
 
-ls --all
-
 ### EXERCISE 5: HISTORY
 Find the line number in your history for the command that listed all the .sh files in /usr/bin. Rerun that command.
 
@@ -91,7 +88,7 @@ Print out the contents of the ~/shell_data/untrimmed_fastq/SRR097977.fastq file.
 ### EXERCISE 7: PATHS
 From your home directory, and without changing directories, use one short command to print the contents of all of the files in the ~/shell_data/untrimmed_fastq directory.
 
-### EXERCISE 8: LESS
+### EXERCISE 8: LESS (Sequence = TTTTTq)
 What are the next three nucleotides (characters) after the first instance of the sequence quoted above?
 
 ### File Permissions Help
@@ -118,11 +115,7 @@ Change the permissions on all of your backup files to be write-protected.
 
 
 ### EXERCISE 10: PROGRAMS
-After loading a conda environment, where is the program 'fastqc' stored? my *backup fastq
-
-**how to cahnge permissions that not even i can delete it?
-
-*program called anaconda... speficially for genomics
+After loading a conda environment, where is the program 'fastqc' stored?
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
