@@ -25,11 +25,20 @@ exercises: 15
 ### EXERCISE 1: NAVIGATION PRACTICE
 Navigate to your untrimmed_fastq directory in one command
 
+to bash: find ~ -type d -name "untrimmed_fastq", text pwd then ls (this will allow you to see.fastq)
+
+~]$ cd  gen711-811/shell_data/untrimmed
+_fastq/ to bring back to fastq
+
 ### EXERCISE 2: WILDCARDS
 What would the output look like if the wildcard could *not* be matched? Compare the outputs
 
+* is a wildcard. ls*.fastq is an unsuccessful match. sample1.fastq means its a succesful match. ls .* (looks into anything with a hidden folder)
+
 ### EXERCISE 3: NAVIGATING PRACTICE
-Navigate to your home directory. From there, list the contents of the untrimmed_fastq directory.
+Navigate to your home directory. From there, list the contents of the untrimmed_fastq directory
+
+to navigate back home: cd or /HOME or cd$HOME are ways to get the home page or ~HOME. cd ../.. (cd means change directory)
 
 
 :::::::::::::::::::::::::::::::::::::::  challenge
@@ -46,6 +55,7 @@ what will `ls ../backup` display?
 
 ![](fig/filesystem-challenge.svg){alt='File System for Challenge Questions'}
 
+'../backup' is referring to 'Users/backup'
 :::::::::::::::  solution
 
 ## Solution
@@ -67,8 +77,13 @@ Hint: hidden files and folders in Unix start with ., for example .my_hidden_dire
 
 What is the hidden file name in the hidden directory?
 
+ls --all
+
 ### EXERCISE 5: HISTORY
 Find the line number in your history for the command that listed all the .sh files in /usr/bin. Rerun that command.
+
+- line 92
+
 
 ### EXERCISE 6: FILE CONTENTS
 Print out the contents of the ~/shell_data/untrimmed_fastq/SRR097977.fastq file. What is the last line of the file?
@@ -103,7 +118,11 @@ Change the permissions on all of your backup files to be write-protected.
 
 
 ### EXERCISE 10: PROGRAMS
-After loading a conda environment, where is the program 'fastqc' stored?
+After loading a conda environment, where is the program 'fastqc' stored? my *backup fastq
+
+**how to cahnge permissions that not even i can delete it?
+
+*program called anaconda... speficially for genomics
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
