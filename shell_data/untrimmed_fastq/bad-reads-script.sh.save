@@ -1,0 +1,3 @@
+grep -B 1 -A 2 -h 'NNNNNNNNNN' *.fastq | grep -v '^--' > scripted_bad_reads.txt
+echo "Script finished!"
+

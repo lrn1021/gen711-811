@@ -1,0 +1,238 @@
+lab notebook: 
+ctrl+n to open a new document
+Control + shift + 'p' to open command prompt
+cd --> navigate between directories
+cd $HOME --> to get to the home directory 
+../../../ --> go back at many previous directories 
+Q: How can I see what files and directories I have? --> through ls --> lists the contents of a directory 
+Q: How can I specify the location of a file or directory on my computer? --> use its full path such as: 
+# C:\Users\Name\Documents\file.txt
+Q: Navigate your file system using the command line.
+- pwd: without arguments tells you the full path of your current location.
+- ls: command shows you what is inside your current folder.
+pwd --> shows your current location in the file system, simply typing cd without arguments shows the current path.
+w/o arguments --> simply lists the names of files in your current folder (ls). w arguments --> lists the files inside the Documents folder specifically (ls -a)
+with arguments (ls -a): Shows "hidden" files (like .git folders). with arguments (ls -l): Shows a "long" list with file sizes and dates.
+cd (change directory) --> how you actually "move" between folders. move forward: cd folder_name (Moves you into a specific sub-folder). move backward: cd .. (the two dots represent the folder "above" your current one).
+to go back to the home directroy: cd ~ (The tilde takes you straight back to your main user profile).
+make a directory: mkdir --> ex: mkdir MyNewProject (Creates a folder with that name).
+-n: means its searching for a number; so -n 4 searching for any lines with a 4 mentioned in the line. -c: count, counting it and not a giant file output. grep -c 
+grep --> search through text and pull out only the lines that match a specific pattern you're looking for!
+To back out of the folder we are already in,  we dont see the folder we are in --> cd .. going back to a directory we were JUST in
+3 ways to change directories to your home directory: cd $HOME , cd ~ , ../../../
+/bin --> List all of the files in /bin that start with the letter you're searching for ex: 
+* --> wildcard, basically searches for any lines that include that specific character. 
+to rename a new file: go to file--> save as--> rename!
+
+-n: means its searching for a number; so -n 4 searching for any lines with a 4 mentioned in the line. -c: count, counting it and not a giant file output. grep -c 
+tail --> shows the last however many lines of the file at the BOTTOM
+head --> shows however many lines at the TOP
+cat --> shows everything within the file (works best with small txt files)
+something like awk to convert FASTQ to FASTA, you'd use > to redirect the output. Here's the pattern:
+awk 'NR%4==1{print ">"substr($0,2)} NR%4==2{print}' sample.fastq > sample.fasta 
+for file in *.fastq; do
+    awk 'NR%4==1{print ">"substr($0,2)} NR%4==2{print}' "$file" > "${file%.fastq}.fasta"
+done
+an explanation: 
+
+> output_file — redirects stdout to a file
+"${file%.fastq}.fasta" — strips the .fastq extension and replaces it with .fasta
+
+e.g. sample1.fastq → sample1.fasta
+
+How the FASTQ→FASTA conversion works (the awk part):
+
+FASTQ files have 4 lines per read; FASTA only needs 2
+NR%4==1 — grabs the header line (every 1st of 4 lines) and replaces @ with >
+NR%4==2 — grabs the sequence line (every 2nd of 4 lines)
+awk --> command for text processing, analysis, and report generation 
+
+First, make sure you know exactly where your .fastq files are located. You can check this by typing:
+ls (You should see Sample1.fastq and Sample2.fastq or your SRR files).
+
+Run the Conversion with Redirection: the > symbol. 
+
+For the first file try: seqtk seq -a Sample1.fastq > Sample1.fasta then seqtk seq -a Sample2.fastq > Sample2.fasta for sample 
+
+how many reads have 15 or more uncalled bases (NNNNNNNNNNNNNNN) in both samples? AND without making a new file:
+
+grep -c "N\{15,\}" sample.fastqc
+
+grep -c "N\{15,\}" sample1.fastq sample2.fastq
+```
+an explanation of this: 
+
+- `grep -c` — counts matching lines instead of printing them
+- `"N\{15,\}"` — regex meaning "N repeated 15 or more times"
+- Running it on both files in one command prints a count for each file — **no new file created**
+
+an example output should be: 
+
+sample1.fastq:42
+sample2.fastq:37
+
+also try: for file in *.fastq; do seqtk seq -a "$file" > "${file%.fastq}.fasta"; done
+
+this for the extra credit on the pp:
+
+fastqc Sample1.fastq
+fastqc to_blast/Sample1.fasta
+```
+
+**What happens:**
+- `Sample1.fastq` — **runs successfully**. FastQC is designed for FASTQ files and can read the quality scores.
+
+-  `Sample1.fasta` — **does not run properly** (or gives a warning/error). FastQC cannot fully analyze FASTA files because **FASTA files have no quality score lines**.
+
+so, this is becaause the fastQC relies on the 4-line FASTQ structure:
+```
+@read_name      ← header
+ATCG...         ← sequence
++               ← separator
+IIII...         ← quality scores  ← FASTA files are MISSING this 
+
+*** if you cant type for whatever reason, like it takes your username and the {...} bars away do:ctrl +c
+
+cp/tmp/GEN711-811_data/Cyanobacteria
+
+# Clone a repo
+git clone https://github.com/org/genomics-repo.git
+
+# Create a new branch for your work
+git checkout -b feature/add-vcf-parser
+
+# Stage, commit, push
+git add .
+git commit -m "Add VCF parsing pipeline for variant calls"
+git push origin feature/add-vcf-parser
+
+# Check status and diff before committing
+git status
+git diff
+
+# Pull latest changes from main (avoid conflicts)
+git fetch origin
+git rebase origin/main
+
+# Squash commits before PR (clean history)
+git rebase -i HEAD~3
+# View first/last lines of large files
+head -n 20 sample.vcf
+tail -n 20 sample.fastq
+
+# Count lines (e.g. number of variants)
+wc -l variants.vcf
+
+# View compressed files without extracting
+zcat sample.vcf.gz | head -20
+bzcat sample.vcf.bz2 | head -20
+
+# Check file type
+file sample.bam
+
+# View BAM/SAM files (requires samtools)
+samtools view -h sample.bam | head -50
+samtools flagstat sample.bam       # alignment stats
+samtools index sample.bam          # create .bai index
+
+# View FASTQ quality (requires FastQC)
+fastqc sample.fastq.gz -o ./qc_output/
+# Filter VCF (skip header lines starting with #)
+grep -v "^#" variants.vcf | wc -l
+
+# Extract specific columns (e.g. chrom, pos, ref, alt)
+awk '{print $1, $2, $4, $5}' variants.vcf
+
+# Sort a BED file by chromosome then position
+sort -k1,1 -k2,2n regions.bed > regions_sorted.bed
+
+# Compress and index a VCF (bgzip + tabix)
+bgzip variants.vcf
+tabix -p vcf variants.vcf.gz
+
+# Convert SAM to BAM, sort, index
+samtools view -bS sample.sam | samtools sort -o sample_sorted.bam
+samtools index sample_sorted.bam
+# Conda (very common in bioinformatics)
+conda create -n genomics python=3.11
+conda activate genomics
+conda install -c bioconda samtools bcftools bwa
+
+# Pip
+pip install pysam biopython pandas pyvcf
+
+# Check what's installed
+conda list
+pip list
+
+# Freeze deps for your PR
+pip freeze > requirements.txt
+conda env export > environment.yml
+
+this might be more over the top btw:
+
+# Run a pipeline script
+bash pipeline.sh 2>&1 | tee run.log     # log stdout + stderr
+
+# Run in background / parallel
+nohup bash pipeline.sh &
+parallel -j4 'bash process.sh {}' ::: sample1 sample2 sample3
+
+# Check disk usage (genomic files are huge)
+du -sh data/
+df -h
+
+# Find large files
+find . -name "*.bam" -size +1G
+
+# Time a command
+time samtools sort sample.bam -o sorted.bam
+
+--> polyg filter w/ fastp
+# The script loops over all R1 files and finds the matching R2
+for fq in data/fastqs/*R1_001.fastq.gz ; do
+    f=$(basename $fq)               # strips the directory path
+    r=$(echo $f | sed 's/_R1_/_R2_/g')  # swaps R1 → R2 to get the paired file
+
+    fastp \
+  --in1 data/fastqs/$f \
+  --in2 data/fastqs/$r \
+  --cut_tail \                    # trim from 3' end
+  --poly_g_min_len 4 \            # flag polyG runs ≥ 4 bases
+  --cut_tail_mean_quality 25 \    # trim if mean quality drops below Q25
+  --cut_tail_window_size 2 \      # sliding window size for quality check
+  --disable_adapter_trimming \    # skip adapter trimming (done later by cutadapt)
+  -l ${1} \                       # min read length after trimming (200bp here)
+  -g \                            # enable polyG trimming
+  -Q                              # disable quality filtering (only length filter)
+
+  find data/poly-G-trimmed/ -size 0 -print -delete
+
+  qiime tools import \
+  --type "SampleData[PairedEndSequencesWithQuality]" \
+  --input-format CasavaOneEightSingleLanePerSampleDirFmt \  # standard Illumina naming format
+  --input-path data/poly-G-trimmed \
+  --output-path data/results/${projname}_demux
+# Output is a .qza artifact (QIIME2's zipped format)
+Cyanobacteria (NE Lakes)16S V4-V5515F / 806R   /tmp/GEN711-811_data/Cyanobacteria
+
+to check which env you're in (conda):
+
+conda info --envs
+# OR
+conda env list
+base                  /home/user/miniconda3
+genomics           *  /home/user/miniconda3/envs/genomics   ← you are here
+qiime2-amplicon-2026.1  /home/user/miniconda3/envs/qiime2-amplicon-2026.1
+(genomics) user@server:~/gen711-811-example$
+(qiime2-amplicon-2026.1) user@server:~/gen711-811-example$
+(base) user@server:~$      ← this means no project env is active
+# After activating 'genomics' — check fastp is there
+which fastp
+fastp --version
+
+# After activating 'qiime2-amplicon-2026.1' — check qiime2 is there
+which qiime
+qiime --version
+
+contrl c to get back into lrn@ron thing on the left

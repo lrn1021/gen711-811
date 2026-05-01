@@ -1,0 +1,33 @@
+import pandas as pd
+
+# Load the CSV data
+data = """strain,generation,clade,reference,population,mutator,facility,run,read_type,read_length,sequencing_depth,cit
+ZDB464,20000,"(C1,C2)",Blount et al. 2012,Ara-3,None,MSU RTSF,SRR098285,single,36,29.7,unknown
+REL10979,40000,C3+H,Blount et al. 2012,Ara-3,plus,MSU RTSF,SRR098029,single,36,30.1,plus
+REL10988,40000,C2,Blount et al. 2012,Ara-3,plus,MSU RTSF,SRR098030,single,36,30.2,minus
+REL2181A,5000,,Tenaillon et al. 2016,Ara-3,None,MSU RTSF,SRR2589044,paired,150,60.2,unknown
+REL966A,1000,,Tenaillon et al. 2016,Ara-3,None,IntraGen,SRR2589001,paired,101,67.3,unknown
+REL764B,500,,Tenaillon et al. 2016,Ara-3,None,IntraGen,SRR2584853,paired,101,82.4,unknown
+REL1166A,2000,,Tenaillon et al. 2016,Ara-3,None,IntraGen,SRR2584859,paired,101,85.9,unknown
+ZDB429,10000,UC,Blount et al. 2012,Ara-3,None,MSU RTSF,SRR098282,single,35,87.3,unknown
+REL7179B,15000,,Tenaillon et al. 2016,Ara-3,None,MSU RTSF,SRR2584863,paired,150,88,unknown
+REL1070A,1500,,Tenaillon et al. 2016,Ara-3,None,IntraGen,SRR2584857,paired,101,92,unknown
+REL4538A,10000,UC,Tenaillon et al. 2016,Ara-3,None,MSU RTSF,SRR2589045,paired,150,99.5,unknown
+REL966B,1000,,Tenaillon et al. 2016,Ara-3,None,IntraGen,SRR2584856,paired,101,101.2,unknown
+REL1070B,1500,,Tenaillon et al. 2016,Ara-3,None,IntraGen,SRR2584858,paired,101,102.4,unknown
+REL1166B,2000,,Tenaillon et al. 2016,Ara-3,None,MSU RTSF,SRR2591041,paired,150,108.5,unknown
+ZDB357,30000,C2,Blount et al. 2012,Ara-3,None,MSU RTSF,SRR098280,single,35,111.2,unknown
+REL764A,500,,Tenaillon et al. 2016,Ara-3,None,IntraGen,SRR2584852,paired,101,113.4,unknown
+ZDB16,30000,C1,Blount et al. 2012,Ara-3,None,MSU RTSF,SRR098031,single,35,113.9,unknown
+ZDB458,20000,"(C1,C2)",Blount et al. 2012,Ara-3,None,MSU RTSF,SRR098284,single,35,126.8,unknown
+REL11365,50000,C3+H,Tenaillon et al. 2016,Ara-3,plus,MSU RTSF,SRR2584866,paired,150,138.3,plus
+ZDB446,15000,UC,Blount et al. 2012,Ara-3,None,MSU RTSF,SRR098283,single,35,141.1,unknown
+ZDB409,5000,unknown,Blount et al. 2012,Ara-3,,MSU RTSF,SRR098281,single,35,144.2,unknown"""
+
+df = pd.read_csv(pd.io.common.StringIO(data))
+
+# Get unique generations
+unique_generations = sorted(df['generation'].dropna().unique().astype(int))
+
+print(f"Number of different generations: {len(unique_generations)}")
+print(f"Generations: {unique_generations}")

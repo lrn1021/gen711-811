@@ -1,46 +1,7 @@
-
-
-To get new course files added to your repository later, you will need to add the original repository (the one you forked) as a 'remote' [see here for help](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository),[and here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)  
-To add updates/new files from the gen711-811 repo, copy and paste these lines into terminal on RON:
-```
-cd $HOME/gen711-811
-git remote add upstream https://github.com/jthmiller/gen711-811.git
-git fetch upstream
-git merge upstream/master master
-```
-The first line is to get you back to your home directory just in case you switched. 
-The second is to go looking for any changes that I might have made in my copy of 'gen711-811'
-The third is to get any of those changes
-The fourth is to merge my changes 'upstream/master' with your 'master'
-
-Note, git merge is like "git pull" which is fetch + merge. Or, better, you can replay your local work on top of the fetched branch like a "git pull --rebase"
-```
-git rebase upstream/master
-```
-
-
-
-1. Ensure all your local changes are committed to your current branch.
-- Save all your vscode additions, and commit them. 
-2. Fetch the latest updates from the remote:
-```git fetch origin```
-3. Rebase your changes onto the updated remote branch
-```git rebase origin/main```
-4. Resolve any conflicts: If conflicts arise during the rebase, Git will pause the process and prompt you to resolve them. After editing the files to resolve the conflicts, use:
-```
-git add .
-git rebase --continue
-```
-#### Resolving Conflicts
-In both scenarios, if the same lines of code were changed in both your local work and the remote updates, Git will indicate a conflict. You must manually edit the conflicted files to choose which changes to keep. Your editor will show markers (like <<<<<<< and >>>>>>>) to help you identify the conflicting sections. 
-After resolving the conflicts, add the file(s) and continue the operation as described above. 
-
-
-
-
+Today
 Review
 Permissions
-Conda environments (these are isoloted directories)
+Conda environmnets
 Running Fastqc
 Redirection (if there is time)
 :::::::::::::::::::::::::::::::::::::::: keypoints
@@ -59,12 +20,23 @@ Quality encoding: !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJ | | | | | Quality s
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-*Warm ups: What is the last read in the SRR2584863_1.fastq file? How confident are you in this read? A:
+*Warm ups: What is the last read in the SRR2584863_1.fastq file? How confident are you in this read? A: 
 
-How big are your fastqs? (Hint: Look at the options for the ls command to see how to show file sizes.)
+file wasn't avaliable :( miau miau mmmiau)
+
+How big are your fastqs? (Hint: Look at the options for the ls command to see how to show file sizes.) 
+
+in 4 line blocks per read
 
 hint, it involves 'ls'. See if you can do it using a relative and absolute path
-another hint: There is an option to make it easy to read the file size. Use one of the two methods to find it A:
+another hint: There is an option to make it easy to read the file size. Use one of the two methods to find it A: 
+
+ls -1h SRR258463_1.fastq
+
+
+
+
+
 EXERCISE 5.1
 Starting in the shell_data/untrimmed_fastq directory, do the following:
 
@@ -72,35 +44,45 @@ Make sure that you have deleted your backup directory and all files it contains.
 
 Replace this with code used
 
+---- deleted backup and then recreated it. 
+
 File Permissions Help
 The first part of the output for the -l flag gives you information about the file's current permissions. There are ten slots in the permissions list. The first character in this list is related to file type, not permissions, so we'll ignore it for now. The next three characters relate to the permissions that the file owner has, the next three relate to the permissions for group members, and the final three characters specify what other users outside of your group can do with the file. We're going to concentrate on the three positions that deal with your permissions (as the file owner).
 
-{alt='Permissions breakdown'}
+{alt='Permissions breakdown'} --- did it right 
 
 Here the three positions that relate to the file owner are rw-. The r means that you have permission to read the file, the w indicates that you have permission to write to (i.e. make changes to) the file, and the third position is a -, indicating that you don't have permission to carry out the ability encoded by that space (this is the space where x or executable ability is stored, we'll talk more about this later).
+
+
+
+
+
 
 EXERCISE 5.2
 Change the permissions on all of your backup files to be write-protected.
 
 Replace this with code
 
-How do you know they are write protected? A:
+How do you know they are write protected? A: removed the x from my SRR097977.fastq file
 
-EXERCISE 5.3: CONDA ENVIRONMENTS AND PROGRAMS
+  
+  
+  
+  
+  
+  
+    EXERCISE 5.3: CONDA ENVIRONMENTS AND PROGRAMS
 After loading a conda environment, where is the program 'fastqc' stored?
 
 Replace this with code
 
 Explore the fastqc output. Which samples failed at least one of FastQC’s quality tests? What test(s) did those samples fail?
-:::::::::::::::::::::::::::::::::::::::: keypoints
+
+
+
 
 Use which for commands/programs to see where they are installed
 You can view file permissions using ls -l and change permissions using chmod.
 The history command and the up arrow on your keyboard can be used to repeat recently used commands.
 Explain what a conda environment is, and how to activate and deactivate it
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-
-
-
